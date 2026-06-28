@@ -1,0 +1,146 @@
+Strava Privacy Policy (2026)
+Effective Date: January 1, 2026
+This Privacy Policy (“Policy”) describes how we collect, share, and use your personal information, as well as how to exercise your privacy rights and choices.
+Scope
+This Policy applies to Strava’s platform, including the related mobile applications, products, websites, technology, software, and services (collectively, “Services”). Please also read our Terms of Service (“Terms”), which set out the terms governing the Services. As used in this Policy, the words “Strava,” “us,” “our,” or “we” means the Strava entity providing the Services to you. Under this Policy, Strava acts as a data controller or “business” for the personal information we process. This means we decide how to collect and process personal information.
+For individuals in the United States, please also refer to our Notice For Individuals Residing In Certain US States below and the Consumer Health Data Policy.
+Information We Collect
+Information You Provide
+Account Information: We collect account information such as your name, email address, phone number, date of birth, gender, username, and password.
+Profile Information: We collect information you provide about yourself, such as your photo, weight, preferred sport type(s), fitness goals, and level of experience.
+Contacts’ Information: You can choose to share contacts from your mobile device or social networking accounts. If you share this information, we will regularly access and store it to help you connect with Strava users you may know. Learn more.
+Support Information: We collect the information you provide in connection with requests for support.
+Information From Using the Services
+Content You Share: We collect content you share through the Services, such as segments, routes, photos, videos, posts, comments, and messages.
+Activity Data: We collect Activity Data directly or through third-party integrations you configure. “Activity Data” is information about the activities you record or upload to Strava, such as equipment usage, date, time, distance, speed, pace, perceived exertion, power, cadence, and geolocation information. Activity Data can also include health data, such as heart rate, if you choose to provide it. Learn more.
+Location Information: We collect or infer location information when you sign up for and use the Services. For our core features to function (e.g., GPS activity tracking, routes, segments), you must grant us permission through your device to track your device’s precise location. You can stop sharing precise location at any time with your device settings.
+Usage Information: We collect information from your use of the Services, such as club or challenge participation, kudos, participation in partner events, and actions you take such as logging in or viewing others’ activities.
+Performance Metrics: We generate metrics from your information to help you analyze your performance, such as Relative Effort, Fitness Score, Fitness & Freshness, and Performance Predictions.
+Device Information: We collect technical information from the browser, computer, or mobile device used to access the Services. This includes device and network information, log files, and analytics information.
+Cookies, Analytics, and Third-Party Technologies: We collect and use information through cookies and similar technologies. Please see the Cookies and Similar Tracking Technologies section below.
+Payment Information: If you make a payment on Strava, we collect information about your purchase, including the final four digits of your credit card number. We do not collect your full payment card information. Instead, we use Payment Card Industry compliant third-party payment services.
+Information From Other Sources
+Connected Devices and Apps: We collect information (including Activity Data) from devices and apps you choose to connect to Strava, such as your Garmin device, Peloton account, or Apple Health app. This could include, for example, step count, sleep information, heart rate, HRV, or VO2max. If we collect health information from these integrations (such as heart rate), we will not sell or use it for advertising or other similar purposes; we do not disclose it to third parties without your prior consent; and we will only use it for the specific purposes described in this Policy.
+Third-Party Accounts: You can sign up and log in to the Services using accounts with other businesses, such as Google or Apple (“Third-Party Accounts”). If you access the Services through Third-Party Accounts, we will collect information such as your name, email address, profile information, and preferences. To control the information we receive from Third-Party Accounts, you must use the privacy controls in your Third-Party Account.
+Service Providers: We may collect information through our service providers, such as when we collect your feedback through surveys.
+Other Users: We may collect information about you from other Strava users, such as when they give you kudos or comment on your activities.
+Corporate Affiliates: We may collect information about you from our corporate family of companies, including our affiliates and subsidiaries (identified here).
+How We Use Your Information
+To Provide the Services
+Create and Update Your Account: We process information, such as your Account Information and Profile Information, to create and update your account.
+Process Your Subscription: We process information to manage your subscription, including using your Location Information to determine your country pricing.
+Record Your Activities and Analyze Your Performance: We process your Activity Data and other information to help you record and analyze your performance. For example, we may compare your past efforts or help you set goals for training. We may also match your GPS to specific segments or routes to analyze your efforts against those of other users and to establish leaderboards.
+Enable GPS-Based Activities: We use your Location Information to enable GPS-based activity tracking and certain map-related features, such as visualizing your routes, matching your location to popular segments or routes, and suggesting workouts. We also use your live location data, which you may choose to share with other users, such as when using Strava Beacon.
+Customize Your Experience: We use information to personalize your experience. For example, we may suggest segments, routes, challenges, clubs on Strava, users to follow, or new features.
+Interact with Other Users: We facilitate interactions with other users, such as to compete on segments; participate in clubs, challenges, or events; find, follow, or message other users; and use additional features to interact with each other, such as group activities or Flyby.
+Provide AI Features: We use and develop machine learning (“ML”) and artificial intelligence (including large language models) (“AI”) to provide features designed to enhance your training and improve the Services (“AI Features”). AI Features include, for example, protecting the integrity and security of our Services (such as detecting anomalies on leaderboards), generating route recommendations, or providing personalized training guidance. Depending on your privacy controls and sharing permissions, we also may use personal information such as health and Location Information for AI Features, for example, to provide you with training analysis and recommendations.
+Visualize Your Activities: We use information to visualize your activities, such as creating personal heatmaps or visualizations from your training log or performance metrics.
+Share Insights: We help users find new ways and places to be active, and understand how others are engaging in activities. For example, we may share your public photos along routes or segments. We may also use your activities to generate our Global Heatmap and other community-powered features such as Points of Interest and Start Points. We may also share aggregated or deidentified information, such as usage or demographics.
+Contact You About the Services: We may contact you about material changes to our Terms, when investigating alleged violations of our Terms, or with customer support messages.
+To Assist You with a Request
+We use information to provide support in response to your requests and comments. Depending on your request, this may require us to access your account (for example, to troubleshoot or replicate a reported issue).
+To Analyze and Improve Our Services
+Analytics: We use information to measure traffic and usage trends, understand how visitors interact with content, and make improvements. This may include the use of cookies and other tracking technologies, as described in the Cookies and Similar Tracking Technologies section.
+Services Improvement: We use information to conduct research, and to analyze, develop, troubleshoot, increase functionality, and otherwise improve the Services.
+AI Development: We use information to enhance the quality, reliability, and/or accuracy of our AI Features by creating, developing, training, testing, improving, and maintaining AI and ML models run by Strava or our service providers. We use aggregated, de-identified information for AI Features where possible for their purpose. Learn more about your choices to contribute to Strava’s development of AI Features.
+To Provide You with Sponsored Content, Marketing, and Advertising
+Sponsored Content: We use information to display challenges, segments, and other content sponsored by third parties like brands or event partners.
+Marketing and Promotions: We use information to send you content about our Services and suggest or offer you promotions, trial offers, features, or activities.
+Targeted Advertising: We advertise our Services through third parties, and may use cookies and other tracking technologies to support targeted advertising and serve relevant ads (see Cookies and Similar Tracking Technologies).
+To Protect You, Others, and the Services
+We aim to protect users, enforce our Terms of Service, Acceptable Use Policy, and Community Standards, and promote safety. We use automated tools, device information, log files, and other information for these purposes. For example, we seek to detect misuse and bad actors, and to remove content that violates our Terms, such as hate speech or spam. You can learn how to report violating content here. We reserve the right to review accounts and user actions to ensure compliance with our Terms, and we can suspend or terminate accounts as a result. We may also process your information when we believe it is necessary to prevent serious harm.
+To enhance safety and privacy for our younger users, we use your age to help confirm that an athlete is old enough to use Strava, and to help provide an age-appropriate experience, including with our messaging feature.
+To Conduct Public Interest Research
+We may process information for research aimed at improving public safety, health, or wellbeing.
+To Manage Legal and Regulatory Obligations
+We may use information to manage or respond to demands or obligations related to the law, government entities, or other regulatory bodies with respect to the Services.
+How We Share Your Information
+We may share your information as follows:
+Information Visible to Others
+Your information may be visible to other Strava users and the public. If you are 18 years or older, certain information, including your profile and your activities, is set by default to be viewable by “Everyone.” “Everyone” includes Strava users and the public, including search engine results.
+Subject to your privacy controls, your information, including parts of your profile, username, photos/videos, information and content you share (including precise location, such as where you run or ride), users you follow and who follow you, clubs you belong to on Strava, your Activity Data, the devices you use, your online status, and kudos and comments you give and receive may be viewable on Strava or to non-registered users.
+Service Providers
+We may share your information with third parties to support, improve, promote, and secure the Services; process payments; or fulfill orders. These service providers only have access to the information necessary to perform specified functions on our behalf. We require them to protect and secure your information.
+Third-Party Services
+You can choose to share your information and content with third-party apps, plugins, or websites that integrate with the Services, as well as with third parties who work with Strava to offer an integrated feature, such as a challenge sponsor, media streaming, or tracking device. Information you provide to these third parties is subject to their terms and policies.
+If you choose to use a Third-Party Account to log in to Strava, we share only the information necessary for login and security purposes. You can also share your information (including Activity Data) via text, email, or on social media applications like Instagram. Activities you share to other social networks may be viewable on those platforms, and may include your location information.
+Partners
+We may disclose information with partners, such as those sponsoring or organizing an event or club that you participate in, when you agree or direct us to share such information. We may also disclose information to marketing partners or third-party advertising networks to promote our services (with your consent, where required). We may also disclose information through the use of cookies and similar technologies, as explained in the Cookies and Similar Tracking Technologies section below. You can opt out of us sharing your personal information for third-party targeted advertising through the “Do Not Share My Personal Information” link on our website or the “Personal Information Sharing” setting in the app.
+We may also license or share deidentified or aggregated information with third parties for purposes such as to improve walking, running or riding in cities via Strava Metro or to help our partners understand more about users, including the people who use their products and services.
+We do not share text messaging opt-in data and consent with third parties.
+Corporate Affiliates, Subsidiaries, and Acquirers of Our Business or Assets
+We may share your personal information with our corporate family of companies, including affiliates and subsidiaries. Our subsidiaries may process that information under their own Privacy Policies. You can learn more about our subsidiaries here.
+If Strava becomes involved in a business combination, acquisition, securities offering, bankruptcy, reorganization, dissolution, or other similar transaction, we may share or transfer your information in connection with such transaction.
+Legal Requirements and Prevention of Harm
+We may preserve and share your information with third parties, including law enforcement, public or governmental agencies, or private litigants, within or outside your country of residence, if we determine that the law compels or reasonably requires such disclosure. This may include responding to court orders, warrants, subpoenas, or other legal or regulatory process, or disclosures that are otherwise permitted by law.
+We may also retain, preserve or disclose your information if we determine it is reasonably necessary or appropriate to: (1) prevent death, serious bodily injury, or other significant harm; (2) address issues of national security or other issues of public importance; (3) prevent or detect violations of our Terms or fraud or abuse of Strava or its users; or (4) protect our operations or our property or other legal rights, including in connection with actual or potential litigation.
+Cookies and Similar Tracking Technologies
+We collect, use, and disclose information through the use of cookies, tracking pixels, SDKs, Google Analytics, and other third-party tracking technologies for security and authentication, to understand and improve your experience, perform analytics, inform and serve relevant ads, understand how you interact with ads, and allow you to navigate and use our Services. Specific to Google Analytics, you can find more information in Google’s explanation at “How Google uses information from sites or apps that use our services”. Learn more about how we use cookies and manage your preferences by visiting our Cookie Policy.
+Your Privacy Rights and Choices
+We provide a variety of privacy controls to manage your information. We encourage our users to adjust their controls to align with their desired experience.
+Below are privacy rights that may be available to you under applicable laws depending on where you live and subject to potential limitations and exceptions. If you need further assistance exercising your rights, please use the Contact Us information below.
+Access and Portability: You may have the right to know, and request access to, the personal information we collect, use, share, or otherwise process about you. You can access much of your information by logging into your account. To download your data, including your activity files, follow the instructions here.
+Rectify or Correct: You may have the right to correct inaccurate information. You may correct, amend, or update Profile Information or Account Information at any time by adjusting that information in your account settings.
+Restrict or Delete: You may have the right to restrict or delete personal information. You can restrict or delete much of your information through your account, such as deleting content like photos or videos you have posted, removing individual activities from view, deleting individual activities, or deleting your account. To delete your account, follow the instructions provided here. Once deleted, we cannot reinstate your data, including your account, activities, and place on leaderboards. Following deletion of your account, it may take up to 45 days to delete your personal information and system logs from our systems.
+We do not have control over content you have shared directly or publicly with others, such as photos or videos on other social media platforms, or that others may have copied. Public segments and routes will also remain available. Search engine results may also display your public profile until the search engine refreshes its cache.
+Revoke Consent: To the extent we rely on your consent to engage in certain processing, you may have the right to withdraw that consent at any time. You can use your settings to withdraw consent. Please note that the withdrawal of your consent will not affect processing done previously based on that consent. For example, activities will still display information (such as heart rate) based on the consent provided at that time.
+Automated Decision-Making: We sometimes use AI Features and automated decision-making to analyze your personal information, as described above. But we do not use these technologies for decisions that have legal or similarly significant effects on you.
+Children's Privacy
+Our services are not intended for, nor directed to, children under 13 years of age, and we do not knowingly collect personal information from anybody under 13 years of age. If you are under 13 years of age, do not use the Services.
+We provide additional privacy and safety protections for users under 18 years of age. For more information, click here.
+Additional Important Privacy Information
+How We Protect Information
+We implement measures to manage your information securely and consistently with this Policy. We maintain administrative, technical, and physical safeguards in accordance with appropriate industry standards that are designed to protect against unauthorized use, disclosure, or access to personal information.
+Retention of Information
+We retain information as long as needed to provide the Services, subject to our legal obligations. We generally keep information associated with your account until you delete it or we no longer need the information to provide the Services. In making these determinations, we consider the amount, nature, and sensitivity of the personal information, the purposes for which we process it, whether we can achieve those purposes through other means, and applicable legal requirements.
+Notice for Individuals in the EEA, UK, Switzerland, Brazil and Other Regions
+Below is additional information in accordance with data protection laws in the European Economic Area (“EEA”), the United Kingdom (“UK”), Switzerland, Brazil, and other relevant jurisdictions.
+Data Controller: If you are in the EEA, Strava Ireland Limited provides the Services to you. Otherwise, Strava, Inc. provides the Services to you.
+Data Subject Rights: Please see Your Privacy Rights and Choices above for a list of rights we provide to you, as well as how to exercise them. In addition, you have the right to object to, and seek restriction of, our processing of your personal information based on our legitimate interests or the performance of a task carried out in the public interest. In such cases, we will cease processing your information unless we have compelling legitimate grounds to continue processing or where necessary for legal reasons. You can also object to processing of your information for direct marketing by turning off email newsletters at any time here. You may also have the right to complain to your local data protection supervisory authority.
+EEA Supervisory Authority: Strava’s lead supervisory authority in the EEA is the Data Protection Commission of Ireland.
+Getting in Touch: Please see the Contact Us section below for our Data Protection Officer and Data Protection Representative information. If you are in the EEA or the UK and have any questions or requests about your legal rights, you can also contact our Data Protection Officer at DPO@strava.com.
+Legal Bases: Certain data protection laws (such as those in the EEA, the UK, and Brazil) require us to identify a valid legal reason (called a “legal basis”) before we collect, use, share or otherwise process your personal information. Common legal bases include:
+- Contract: When processing personal information is necessary to perform our contract with you (our Terms) or to take steps at your request before entering into a contract. 
+- Consent: When you’ve given us permission to use your information for a specific reason. You have the right to withdraw your consent at any time. 
+- Legitimate interests: When we use your information in ways that are expected and that do not unfairly affect your rights. 
+- Legal obligation: When we’re required to process your information by law. 
+- Vital interests: When processing is needed to protect someone’s life or safety. 
+If you want to learn the specific legal basis for each purpose, click on “Learn More”.
+Cross Border Data Transfers: If you are located outside of the United States and choose to use the Services or provide information to us, you acknowledge and understand that your information will be transferred, processed, and stored in the United States.
+Whenever we transfer personal information internationally, we use legal mechanisms, such as Standard Contractual Clauses, to ensure the protection of your personal information, in accordance with applicable data protection law. If you have further questions about this or would like to request copies of the applicable safeguards used to transfer your information internationally, please contact us.
+Notice For Individuals Residing In Certain US States
+Residents of certain US states, such as California, Colorado, Connecticut, Delaware, Iowa, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia, and other states to the extent they enact similar privacy laws, may have additional rights under your corresponding state laws (collectively, “US State Privacy Laws”).
+Categories of Personal Information Collected, and Disclosed: Our Policy describes how we collect, use, and disclose your personal information.
+The table in the Learn More link below describes the categories of information we have disclosed to third parties for business purposes in the last twelve months, and the categories of those third parties.
+Data Subject Rights: Only you or someone legally authorized to act on your behalf may make a request related to your personal information. Please see Your Privacy Rights and Choices for a list of rights we provide to you, as well as how to exercise them. We describe below additional rights that may be available to you under US State Privacy Laws.
+- Opt Out of Sharing for Targeted Advertising: You have the right to opt out of sharing your personal information for targeted advertising. You can click the “Do Not Share My Personal Information” link on the website footer or click on the “Personal Information Sharing” link in your Privacy Controls in the app or broadcast an Opt-Out Preference Signal, such as the Global Privacy Control. Note that Do Not Track (DNT) is a privacy preference you can set in browsers, but we do not currently process DNT signals. 
+- Limit Use of Sensitive Personal Information: We do not use or disclose sensitive personal information for purposes other than with your consent to provide the Services, or as otherwise permitted by law. 
+- Non-Discrimination: We will not discriminate against you for exercising any of your US State Privacy Law rights. 
+- Appeal: You may have the right to appeal our decision regarding a request related to your privacy rights. 
+Authorized Agents: You may appoint an authorized agent to exercise any of your privacy rights on your behalf. To verify that your authorized agent acts on your behalf, we will ask for proof from your agent and may require that you also verify your identity.
+Privacy Policy Updates
+Strava reserves the right to modify this Policy at any time. If we make changes to this Policy, we will post the revised policy and its effective date on our website. If we make changes we deem to be material, we will provide prominent, advance notice. If you object to any changes to this Policy, you should stop using the Services and delete your account.
+Contact Us
+If you have questions about our privacy practices, this Policy, or would like to contact us or our Data Protection Officer, you can do so by the email or addresses below or via https://support.strava.com.
+For Non-EU/EEA/UK Data Subjects:
+Strava, Inc.
+181 Fremont Street, Floor 27
+San Francisco, CA 94105, USA
+Attn: Legal
+DPO@strava.com
+For EU/EEA Data Subjects:
+Strava Ireland Ltd.
+Making it Work
+Magennis Court
+Pearse Street
+Dublin 2
+D02 FK76 Ireland
+Attn: Legal
+DPO@strava.com
+For UK Data Subjects:
+Strava Limited.
+Birchin Court 5th Floor
+19-25 Birchin Lane
+London EC3V 9DU, United Kingdom
+Attn: Legal
+DPO@strava.com

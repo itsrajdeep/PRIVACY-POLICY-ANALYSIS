@@ -1,0 +1,54 @@
+Wix.com Privacy Policy
+Effective from: June 18, 2026
+Welcome to Wix.com’s Privacy Policy
+1. Please read carefully
+Wix.com cares deeply about the privacy of its visitors and users. To that end, this Privacy Policy (“Privacy Policy”) describes how Wix.com Ltd., together with its affiliated companies worldwide (“Wix”, “we”, “our”, or “us”), collect, use, and share your Personal Information ("PI"), as well as an explanation of the data rights you may have in that Personal Information. This Privacy Policy applies to all Wix users, including unregistered visitors, registered users, and premium users (collectively, “Users”, “you”, or “your”), and to all Wix services, including our websites (including www.wix.com and any of its subdomains, the “Website”), web applications (“Wix Apps”), mobile applications (“Mobile Apps”), and related services (collectively, the “Services”). This Privacy Policy is not intended to override the terms of any contract you have with us, nor any rights you may have under other applicable data privacy laws.
+Prior to accessing or using our Services, please read this policy and make sure you fully understand our practices in relation to your Personal Information. If you read and fully understand this Privacy Policy, and remain opposed to our practices, you must immediately leave and discontinue all use of any of our Services. If you have any questions or concerns regarding this policy, please contact us here.
+#ItsThatEasy
+This policy describes our privacy practices – what Personal Information we collect about our Users, what we do with it, how we share it, and your rights regarding that Personal Information.
+By accessing or using any of our Services, you acknowledge that you have read this Privacy Policy.
+2. What ‘Personal Information’ do we collect?
+2.1. User information:
+To provide you the Services, we must collect Personal Information relating to an identified or identifiable natural person (“Personal Information”). We collect Personal Information you provide us, from your use of the Services, and from other sources. Here are the types of Personal Information we collect about you:
+- Information you provide us. When you register for our Services, sign up for any Wix events, subscribe to our blog(s) or newsletter(s), purchase and/or register domain names, use any of our Services; and/or when you contact us directly by any communication channel (e.g., Wix’s support tickets, emails), you may provide us Personal Information, such as name, email address, phone number, payment information (for Users with Paid Services), information you include in your communications with us and with other users on our platform, and Personal Information contained in scanned identification documents (such as an ID card, driver’s license, passport, or official company registration documents). 
+- Information we collect when you use the Services. When you visit, download, and/or use any of our Services, we may collect aggregated usage Personal Information, such as Visitors’ and Users’ browsing and ‘click-stream’ activity on the Services, session heatmaps and scrolls, non-identifying Personal Information regarding the Visitor’s or User’s device, operating system, internet browser, screen resolution, language and keyboard settings, internet service provider, referring/exit pages, date/time stamps. 
+- Information we collect from other sources. We may receive Personal Information about you from third-party sources, such as i) security providers , fraud detection and prevention providers for example to help us screen out users associated with fraud, ii) social media platforms, when you log-in or sign-up using your social media account, we may receive Personal Information from that service (e.g., your username, basic profile Personal Information) and in some cases, we may collect Personal Information from lead enhancement companies which help us to improve our service offering; iii) advertising and marketing partners in order to monitor, manage and measure our ad campaigns. 
+#ItsThatEasy
+To provide our Services, we collect Personal Information about our Users.
+The Personal Information comes from you when you visit or use our services, Personal Information we collect automatically, and Personal Information we collect from other sources.
+Additional Information for U.S. State Residents
+This section of our Privacy Policy details what Personal Information we collect about you under U.S. applicable privacy laws and regulations, the sources of the Personal Information, the purposes of use and disclosure, and the categories of third parties that may receive that Personal Information. The information in this section applies to you if you are a U.S. resident in a state with an applicable privacy law or regulation.
+Please read this section in combination with the other sections of this Privacy Policy for a complete understanding of how we collect, use, and disclose your personal information.
+Your Rights and how to exercise them:
+Here is a brief overview of your rights:
+- Right to Delete Your Information: Upon your request, we will delete the personal information we have collected from you, subject to certain legally permissible exceptions. - Please follow the instructions provided in this Help Center article: <"Permanently Deleting Your Wix Account">, which explains how to delete your Personal Information. You can also choose to request the deletion through this web form or by contacting us as described in this Privacy Policy. 
+ 
+- Right to Know and Access Your Personal Information: You have the right to ask us to confirm whether we process your personal information and for a copy of the personal information we maintain about you. - Please follow the instructions provided in this Help Center article: <"Retrieving Your Wix Account Data">, which explains how you can retrieve your Personal Information. You can also submit a request to access your Personal Information through this web form or by contacting us as described in this Privacy Policy 
+ 
+- Right to Correct Inaccurate Personal Information: You have the right to request that we correct inaccurate personal information about you. Some personal information can be directly changed or corrected by you through our apps and websites. - For any questions, you can reach out to us using the method described in this Privacy Policy 
+ 
+- Right to Opt Out of the Sale of Your Personal Information: You can tell us not to "sell" your personal information according to applicable law, even though we don't technically sell your information in the traditional sense. We may share certain categories of Personal Information with our Third Party Service Providers. However, the current regulation uses a very broad (and somewhat scary) definition of “Sale”." 
+- Right to Limit Use of Your Personal Information for Targeted Advertising (defined in California as “Sharing”): You can ask us not to use or disclose your personal information for targeted advertising. Just visit our Do Not Sell or Share My Personal Information page. You also can use the Global Privacy Control to signal your opt-out preference. To learn more about the GPC please visit https://globalprivacycontrol.org. 
+You may exercise any of the rights described above, you can also submit a request by email to privacy@wix.com, or by mail to Wix.com, 5 Yunitsman St., Tel Aviv, Israel.When you submit a request, we will usually ask you to provide an email address to verify your identity and prevent fraud.You may also designate an authorized agent to submit a request on your behalf. Depending on the nature of the request, we may authenticate the request by requesting additional information or documentation, such as account related information, billing information used to purchase paid Services and the submission of specific documents.No Discrimination. Wix does not discriminate against any individual for exercising their rights under this section.If we deny your request or cannot fulfill it, you may appeal our decision by contacting us as described in this Privacy Policy to ask us to review your request again. Your communication should include “Appeal” in the subject line.
+Categories of Information:
+In the last 12 months, we collected the following categories of personal information (the same categories we collect from all users globally):
+- Personal and online identifiers 
+- Commercial and transactions information 
+- Record-keeping information 
+- Internet or other electronic network activity information 
+- Non-precise Geolocation data (IP address, only) 
+- Audio, electronic, visual, or similar information 
+- Inferences drawn from the above information 
+Sources of Information:
+We collect Personal Information:
+- You provide us when you register for our Services, sign up for any Wix events, subscribe to our blog(s) or newsletter(s), purchase and/or register domain names, use any of our Services; and/or when you contact us directly by any communication channels 
+- When you use the Services by visiting, downloading, and/or using any of our Services. 
+- From third-party sources, such as security providers, fraud detection services, social media platforms, lead enhancement companies, advertising and marketing partners. 
+Disclosure of Information for Business Purposes:
+In the past 12 months, we may have disclosed each of the categories of personal information listed above to our affiliates, Third Party Service Providers, social media platforms, advertising partners, analytics partners, and promotional partners.
+Sales or Sharing of Your Information:
+Note: for sure, we're not out there auctioning off your data to the highest bidder.We may have "sold" (using that rather broad and dramatic term as defined by U.S. privacy laws and regulations) or shared the categories of Personal Information listed above in the past 12 months to our affiliates, Third Party Service Providers, promotional partners, advertising partners, analytics partners, and social media platforms.Wix does not knowingly collect, use, sell or share the Personal Information of children under the age of 16.
+Sensitive Personal Information:
+We may process Sensitive Personal Information in accordance with applicable laws and do not use or disclose Sensitive Personal Information in any way that would require us to provide an opt-out opportunity under the applicable laws.
+Retention of Information:
+We retain your Personal Information for the time period reasonably necessary to achieve the purposes described in this Privacy Policy, or any other notice provided at the time of collection.To determine the appropriate retention period for Personal Information, we consider the amount, nature, and sensitivity of such data, the potential risk of harm from unauthorized use or disclosure of such data, the purposes for which we process it, and the applicable legal requirements.

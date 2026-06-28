@@ -1,0 +1,82 @@
+company,predicted_class,prob_easy,prob_moderate,prob_obfuscated,in_training_set
+Adyen,Obfuscated,0.0468,0.1136,0.8396,Yes
+Barclays,Easy,0.6545,0.2479,0.0976,Yes
+Citigroup,Moderate,0.0064,0.9592,0.0343,Yes
+Coinbase,Obfuscated,0.0123,0.3428,0.6449,No
+Equifax,Moderate,0.0320,0.9251,0.0429,Yes
+Experian,Moderate,0.0264,0.7540,0.2195,No
+Goldman Sachs,Moderate,0.0186,0.9536,0.0278,Yes
+HSBC,Moderate,0.0918,0.8749,0.0333,Yes
+JPMorgan Chase,Obfuscated,0.0145,0.0704,0.9152,Yes
+Klarna,Moderate,0.0283,0.9439,0.0278,Yes
+PayPal,Obfuscated,0.0042,0.0520,0.9438,No
+Square (Block),Obfuscated,0.0160,0.4172,0.5668,No
+Stripe,Moderate,0.0154,0.9619,0.0228,Yes
+Vanguard,Obfuscated,0.0151,0.1582,0.8267,No
+Western Union,Obfuscated,0.0118,0.0720,0.9163,Yes
+Airtable,Obfuscated,0.0006,0.0009,0.9985,Yes
+Asana,Moderate,0.0039,0.9470,0.0491,Yes
+Atlassian,Obfuscated,0.0017,0.0130,0.9853,No
+Bitbucket,Obfuscated,0.0017,0.0130,0.9853,No
+Canva,Moderate,0.0213,0.6285,0.3502,No
+ClickUp,Obfuscated,0.0043,0.0164,0.9793,Yes
+Confluence,Obfuscated,0.0017,0.0130,0.9853,No
+Datadog,Moderate,0.0133,0.6405,0.3461,No
+DocuSign,Obfuscated,0.0020,0.0191,0.9789,No
+Dropbox,Moderate,0.0050,0.9837,0.0113,Yes
+Freshworks,Obfuscated,0.0028,0.0194,0.9778,Yes
+GitHub,Obfuscated,0.0032,0.0398,0.9570,No
+GitLab,Obfuscated,0.0281,0.2021,0.7698,No
+HubSpot,Obfuscated,0.0110,0.1143,0.8747,Yes
+Intercom,Obfuscated,0.0033,0.0515,0.9453,Yes
+Jira,Obfuscated,0.0017,0.0130,0.9853,No
+Monday.com,Obfuscated,0.0066,0.0623,0.9311,Yes
+New Relic,Obfuscated,0.0172,0.1753,0.8075,No
+Okta,Obfuscated,0.0017,0.0094,0.9889,Yes
+PagerDuty,Obfuscated,0.0042,0.1187,0.8771,No
+Qualtrics,Obfuscated,0.0019,0.0087,0.9895,Yes
+Salesforce,Moderate,0.0103,0.8520,0.1377,Yes
+Shopify,Moderate,0.0258,0.9203,0.0540,Yes
+Slack,Obfuscated,0.0023,0.0037,0.9940,Yes
+Snowflake,Obfuscated,0.0027,0.0266,0.9707,Yes
+Splunk,Moderate,0.0055,0.9760,0.0185,Yes
+Squarespace,Obfuscated,0.0017,0.0062,0.9921,Yes
+SurveyMonkey,Moderate,0.0069,0.9498,0.0434,Yes
+Trello,Obfuscated,0.0017,0.0130,0.9853,No
+Twilio,Moderate,0.0038,0.9307,0.0655,Yes
+Veeva Systems,Obfuscated,0.0061,0.2214,0.7725,No
+Wix,Obfuscated,0.0142,0.0603,0.9255,Yes
+Workday,Obfuscated,0.0023,0.0113,0.9864,Yes
+Zendesk,Obfuscated,0.0063,0.1008,0.8929,No
+BeReal,Obfuscated,0.0078,0.0436,0.9486,No
+Bumble,Moderate,0.0235,0.9696,0.0068,No
+Clubhouse,Obfuscated,0.0045,0.0326,0.9629,No
+Discord,Moderate,0.0027,0.9936,0.0038,Yes
+Flickr,Moderate,0.0034,0.9747,0.0219,No
+Goodreads,Moderate,0.0148,0.9735,0.0117,Yes
+Grindr,Obfuscated,0.0019,0.0136,0.9845,No
+Hinge,Moderate,0.0112,0.9745,0.0143,No
+Line,Obfuscated,0.0106,0.0490,0.9405,Yes
+LinkedIn,Moderate,0.0031,0.9929,0.0041,Yes
+Medium,Obfuscated,0.0047,0.0260,0.9693,Yes
+Pinterest,Moderate,0.0054,0.9802,0.0143,Yes
+Signal,Moderate,0.0037,0.9862,0.0100,Yes
+Snapchat,Moderate,0.0062,0.9841,0.0098,Yes
+SoundCloud,Obfuscated,0.0086,0.0607,0.9306,Yes
+Strava,Obfuscated,0.0081,0.0514,0.9404,Yes
+Substack,Obfuscated,0.0036,0.0160,0.9804,Yes
+Vimeo,Moderate,0.0029,0.9922,0.0049,Yes
+Wattpad,Obfuscated,0.0035,0.0061,0.9904,No
+WeChat,Moderate,0.0109,0.8881,0.1010,Yes
+X (Twitter),Moderate,0.0241,0.8646,0.1112,No
+YouTube,Moderate,0.0681,0.8504,0.0815,No
+Adobe,Moderate,0.0064,0.8729,0.1208,Yes
+Asus,Moderate,0.0039,0.9598,0.0363,No
+Bose,Moderate,0.0105,0.9375,0.0519,Yes
+Cisco,Moderate,0.0055,0.9760,0.0185,No
+Cloudflare,Moderate,0.0058,0.9352,0.0590,Yes
+Corsair,Obfuscated,0.0037,0.0617,0.9347,Yes
+DigitalOcean,Obfuscated,0.0025,0.0272,0.9703,Yes
+Fastly,Obfuscated,0.0029,0.0129,0.9843,Yes
+Fitbit,Moderate,0.0117,0.9757,0.0125,Yes
+Google,Moderate,0.0681,0.8504,0.0815,No

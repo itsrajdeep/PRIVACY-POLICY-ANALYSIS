@@ -1,0 +1,186 @@
+Twilio Privacy Notice
+Last Updated: April 09, 2026 (View the prior version of our privacy notice here)
+Introduction & Scope
+Building the Future of Engagement. Twilio powers the world’s most important communications by seamlessly unifying data and connectivity. We protect the personal data flowing through our platform by centering our privacy program on Binding Corporate Rules (“BCRs”). These BCRs serve as our global code of conduct, mandating how Twilio Inc. and its group companies (“Twilio”, “we”, or “our”) process personal data wherever we operate.
+Trust Through Transparency. In a digital economy defined by speed and scale, transparency is essential to who we are and how we operate. It is the foundation of the trust we build with the millions of developers and organizations who rely on Twilio. To honor that trust, we explain our privacy practices in a clear, accessible, and easy-to-understand way, and let you know how to exercise your rights in relation to your data.
+Putting Privacy Into Practice. To provide our products and services (collectively, our “Services”) and conduct our day-to-day business operations, we collect, store, use, and share personal data, which is any information that identifies you directly (such as your name) or indirectly (such as a phone number or device identifier).
+Depending on which Services are used, we process personal data for:
+- Customers: Individuals or entities who contract with us to use our Services.
+- End Users: Individuals who interact with our customers via our Services (e.g., receiving a text or authenticating an identity).
+- Prospective Customers & Visitors: Individuals who visit our websites, attend our events, or engage with our sales teams.
+Our personal data responsibilities depend on how you use our Services or interact with us:
+- Twilio As Data Controller: We determine the “how” and the “why” personal data is used in relation to our Services, accounts, websites, and operations. In these cases, we are directly responsible for protecting the data.
+- Twilio As Data Processor: We process personal data as directed by our customers - whether through specific instructions, our Data Protection Addendum, or their chosen Service configurations. In these cases, we must use and protect personal data in line with those directions.
+This Privacy Notice (“Notice”) applies when Twilio acts as a Data Controller.
+What This Notice Doesn't Cover
+- Supplemental Notices: Specific Services or business operations may have additional privacy terms provided at the time of collection.
+- Job Applicants: This Notice does not apply to candidates. Please see our Global Applicant Privacy Notice.
+To deliver our Services, manage our business operations, drive research and development, secure our platform and networks, and prevent fraud, we process personal data from three sources: 1) data you share directly; 2) data we generate or collect automatically; and 3) data from third parties. The categories of personal data we have collected, processed and disclosed for our business purposes in the past 12 months will depend on the nature of your relationship with us or on the Services you or our customers use, and may include the following:
+Table 1: Data You Share Directly
+| Personal data you provide for account setup, purchases, or support. |  | 
+|---|---|
+| Contact Data | Name, company name, business address, phone number, email address, job title, industry, social media profile URLs. | 
+| Customer Account Data | Purchase & Payment Data 
+ Service Provisioning Data 
+ Security & Verification Data 
+ Subscriber Records 
+ | 
+| Customer Content | Communications content (e.g., email subject, email body, text body, media files), transcripts, recordings, communications logs, and other data uploaded to the Services. | 
+| Marketing & Communications Data | Privacy settings, communication preferences, event attendance info, dietary requirements, or accessibility needs for in-person events. | 
+| Customer Support & Feedback Data | Call recordings with our support agents, transcribed conversations conducted with AI chatbots, feedback and survey responses. | 
+Table 2: Data We Generate or Collect Automatically
+| Personal data we automatically collect or generate in order to route communications, optimize performance, and prevent fraud, including through tracking technologies like cookies and web beacons. |  | 
+|---|---|
+| Communications Usage Data | Electronic Communications Metadata 
+ Customer Proprietary Network Information (“CPNI”) 
+ Device Data 
+ | 
+| Online Activity Data | Browsing behavior, page and feature interactions, products viewed or searched, response times, download errors. | 
+Table 3: Data From Other Sources
+| Personal data we receive from third parties, trusted partners, telecommunications operators, aggregators, or carriers to provision accounts, validate identities, and enrich our Services. |  | 
+|---|---|
+| Partner-Sourced Data | Contact Data provided by event partners and co-sponsors, as well as marketing and lead generation partners. Data may also include information you choose to share via third-party forms or advertisements, which may be auto-populated from your profile on those platforms and which may include location related data. | 
+| Solution Provider-Sourced Data | Contact Data and Customer Account Data shared by our solutions providers - Independent Software Vendors (“ISVs”) and Managed Service Providers (“MSP”) - to help us process orders and set up sub-accounts. | 
+| Data Enrichment Services | Contact Data obtained from third-party data providers and enrichment services and data that is publicly available. We may combine this Contact Data with other data we have collected about you. | 
+| Third-Party Authentication Data | Contact Data and Customer Account Data shared by connected third-party services like Google and Meta when you link those accounts to your Twilio account, as permitted by your individual privacy settings on those platforms. | 
+| Telecommunications Data | Communication-related data from operators, aggregators, and carriers - including phone type, SIM and carrier history, registration location, account type and IP address - used to validate whether personal data provided to Twilio matches operator, aggregator or carrier records. | 
+The specific reasons we process personal data depend on your relationship with us. We only process the personal data necessary to fulfill the purposes listed below, and we do so in accordance with applicable data protection laws..
+In the past 12 months, we have processed personal data for the following business purposes:
+Table 4: Data Use Categories & Legal Basis for Processing
+| Data Use Categories & Legal Basis for Processing |  |  | 
+|---|---|---|
+| Account Management | Purpose: Creating and managing your Twilio account throughout your customer lifecycle. Examples: Determining service eligibility; verifying identities (KYC); billing and relationship management; and, sending essential administrative or Service updates. | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Business Operations | Purpose: Managing essential business functions. Examples: Financial management (accounting, auditing, and revenue planning); strategic growth (lead scoring and operational insights); relationship management; corporate governance; risk management; maintaining customer records; identifying potential job candidates; and, ensuring the safety of our employees, visitors, and properties. | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Platform Security & Fraud Prevention | Purpose: Securing our platform and data while proactively protecting our network and our users from abuse. Examples: Safeguarding systems against unauthorized access and security threats; identifying account takeovers and signs of spam or bot attacks; training AI/ML models to recognize evolving security vulnerabilities and fraud signatures; and, utilizing signals to make real-time automated security decisions, such as approving account applications or suspending fraudulent accounts (of which you will be notified and given an opportunity to object). | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Service Support & Improvement | Purpose: Operating, maintaining, and evolving our communications and engagement platforms. Examples: Providing global connectivity and routing communications; troubleshooting technical issues; training AI/ML models with performance metrics to optimize network reliability; providing dedicated customer support; and, refining our Service suite through usage insights. | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Research & Innovation | Purpose: Expanding platform capabilities and developing the next generation of communications, engagement, and identity solutions. Examples:   | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Customer Engagement | Purpose: Personalizing your experience and managing our ongoing relationship with you. Examples: Delivering essential Service notifications and account support; sending relevant Service updates and news based on your preferences; facilitating event participation and access to resources like whitepapers; and, conducting surveys to gather insights for Service improvements. | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Personalization & Optimization | Purpose: To analyze site and platform interactions in order to improve your digital experience, refine our interfaces, and optimize our marketing ecosystem through a unified understanding of the customer journey. Examples: Analyzing website and platform navigation to improve functionality and experience; utilizing identity resolution to create unified profiles that ensure a consistent experience across different devices and touchpoints; measuring and optimizing the performance of our advertising activities; and deploying online tracking technologies in accordance with your preferences. | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+| Legal Compliance | Purpose: Fulfilling our global legal obligations and protecting the public interest. Examples: Adhering to international telecommunications and data protection laws, along with carrier requirements and industry codes of practice; responding to valid legal requests (such as court orders or subpoenas); and safeguarding the fundamental rights and freedoms of individuals. | Personal Data Processed: 
+ Legal Basis for Processing: 
+ | 
+We only share your data when it is necessary to provide our Services, run our business, or comply with the law, and we do not sell your data to third parties. While we may share certain categories of personal data for these business purposes, no mobile information will be shared with or sold to any third parties for marketing or promotional purposes. Please note that if we share your personal data with a third-party acting on our behalf, Twilio remains liable under the DPF Principles (defined below) if that third-party processes your data in a way that violates those Principles, unless we prove we were not responsible for the violation.
+In the past 12 months, we may have shared personal data with the following categories of recipients:
+Table 5: Data Recipient Categories
+| Data Recipient Categories |  |  | 
+|---|---|---|
+| Telecommunications Service Providers | Recipient Details: Global network of operators, aggregators, and carriers who act as conduits for Customer Content. These providers function as independent data controllers when processing metadata for billing, fraud prevention, or legal compliance. Important Note: Where required by local law, we share Subscriber Records with local carriers or authorities solely to provide connectivity, maintaining the highest confidentiality for these records. | Reason for Sharing: To route and connect communications across the publicly switched telephone network (“PSTN”). | 
+| Other Communications Service Providers | Recipient Details: Over-the-Top (“OTT”) providers (such as WhatsApp) that function as independent data controllers. | Reason for Sharing: To route and connect communications across the publicly switched telephone network (“PSTN”). | 
+| Third Party Service Providers | Recipient Details: Third-party vendors and service providers engaged by Twilio to process personal data on our behalf. | Reason for Sharing: To perform specific operational functions, with access strictly limited to providing services to Twilio under robust security and confidentiality safeguards. | 
+| Partners & Integrated Service Providers | Recipient Details: Third party partners who provide 'add-ons' or integrations to our Services through the Twilio Marketplace or other Twilio provided catalogue (such as Segment Connections). | Reason for Sharing: To facilitate seamless interoperability between Twilio and third-party services. This includes disclosing Contact Data and Customer Account Data to those partners to enable the chosen functionality. | 
+| Twilio Group Companies | Recipient Details: Twilio group companies (subsidiaries and affiliates) as listed in our Binding Corporate Rules. | Reason for Sharing: To facilitate global operations and Service delivery, with all members contractually bound to use your information strictly as described in this Notice. | 
+| Legal, Regulatory, & Judicial Parties | Recipient Details: Law enforcement, government agencies, emergency services, private parties involved in legal proceedings (such as opposing counsel or court-appointed officers) or a third party. Important Note: We notify users of legal requests whenever permitted and where Twilio determines the disclosure will not interfere with an on-going investigation. We object to any requests that are not properly issued. | Reason for Sharing: To comply with legal obligations, respond to court orders or subpoenas in civil or criminal cases, enforce our agreements and policies, prevent fraud, and protect the safety and integrity of the platform or the public. | 
+| Corporate Transaction Parties | Recipient Details: Prospective or actual buyers, merger partners, and their professional advisors (such as legal and financial consultants). Important Note: We will notify you in advance if required by law and provide information on any choices you have regarding the transfer of your data to a new entity. | Reason for Sharing: To conduct due diligence or complete a transfer of assets during a merger, sale, reorganization, or dissolution, ensuring business continuity. | 
+Aggregated, Anonymized & De-Identified Data
+We may derive aggregated, anonymized, or de-identified data from your personal data. Because this data does not identify you, it is not considered personal data under the law. We may use this data for any purpose. We commit to never attempting to re-identify this information, and we will only share it with third parties who are legally or technically bound to keep it de-identified.
+U.S. Supplemental Disclosure
+If you are a US resident interested in what personal data we have disclosed lately for our business purposes, here’s a list:
+- Identifiers
+- Commercial information
+- Financial information
+- Internet or other electronic activity information
+- Geolocation information
+- Professional or employment information
+By “our business purposes,” we mean that we only disclose personal data as described in this section.
+As a global platform, we move data across borders to ensure seamless connectivity, Service provision and business operations. While our primary processing facilities are in the U.S., we use regulator-approved frameworks to ensure personal data receives the same high level of protection everywhere it travels. Whether we are transferring data internally within the Twilio group or externally to trusted third parties, we rely on the following legal safeguards:
+- Data Privacy Frameworks (or “DPF”): Twilio Inc. and our subsidiary Stytch Inc. comply with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Twilio Inc. has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union and the United Kingdom in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF. Twilio Inc. has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this Privacy Notice and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the Principles shall govern. Twilio Inc. is subject to the investigatory and enforcement powers of the Federal Trade Commission (FTC).To learn more about the Data Privacy Framework (DPF) program, and to view our certification, please visit https://www.dataprivacyframework.gov/. 
+- Binding Corporate Rules (or “BCRs”): EU-approved rules covering transfers to Twilio group companies globally.
+- EU, UK Standard Contractual Clauses (or “SCCs”): Transfer mechanisms used for EU and UK transfers where the DPF or BCR’s do not apply.
+- Brazil Standard Contractual Clauses (or “Brazil SCCs”): Primary mechanism for transfers from Brazil.
+- Global CBPR and PRP Systems (or “CBPR and PRP”): Twilio’s privacy practices (as described in this Notice) comply with the Global Cross Border Privacy Rules and Privacy Recognition for Processors, frameworks for organisations to ensure the protection of data transferred among participating economies. More on these programs can be found here.
+For our customers, all international data transfers are governed by our Data Protection Addendum (“DPA”), which provides detailed information on our contractual safeguards.
+Twilio protects personal data through a risk-based security framework and data lifecycle management processes.
+Security Measures
+To protect against loss, unauthorized use, access, or disclosure, Twilio uses reasonable and appropriate security measures designed to protect personal data both online and offline.
+- Risk-Based Protections: These measures vary based on the sensitivity of the personal data we collect, process, and store, as well as the current state of technology.
+- Global Standards: All systems are governed by policies built on industry best practices, including ISO 27001 and NIST standards.
+More information about our security measures can be found in our Security Overview.
+Retention Policy
+We endeavor not to retain personal data in a form which permits identification of individuals for longer than is necessary for the purposes for which that data is processed. We retain personal data in accordance with Twilio’s record retention policies and guidelines.
+Customer Account Data is stored as long as needed to provide Services and operate our business. Please note that requests to delete Customer Account Data are subject to the Limitations set forth in the Privacy Rights & Choices section of this Notice.
+Managing Your Data
+We provide the tools you need to store, access, delete, and exercise control over your data. The specific choices available to you depend entirely on which Service you use and how you have configured it. The Twilio Docs repository is a centralized hub that includes product-specific instructions for managing your data, plus step-by-step guides on our retention and deletion practices.
+Depending on the applicable data protection laws, you may have the following rights in relation to the personal data that we process as a data controller:
+Table 6: Privacy Rights & Choices
+| Privacy Rights & Choices |  |  | 
+|---|---|---|
+| Transparency & Control Rights | 
+ Important Note: Account closure or deletion is permanent and results in immediate loss of access to some or all data. Requests are subject to limitations set forth below. | How to Exercise Rights: 
+ | 
+| Marketing Communications & Targeted Advertising Rights | Opt out of marketing communications; update your communications preferences; update cookie preferences; opt out of targeted advertising. Important Note: Marketing opt-outs may take up to three days to process. Essential service communications— such as billing or password resets—will continue unless your account is deactivated. | How to Exercise Rights: 
+ | 
+| Automated-Decision Making Rights | Object to and request a human review of decisions Twilio makes about you based solely on automated processing, which currently includes account approvals and account suspensions related to abusive or fraudulent activity, or other decisions that significantly affect you. | How to Exercise Rights: 
+ | 
+| Complaint Rights | Submit a complaint to Twilio; file an official complaint with a government data protection regulator; take legal action through the relevant court system. | How to Exercise Rights: 
+ | 
+| Data Privacy Framework Choices & Means | In accordance with the Data Privacy Framework Principles, opt of (i) your personal data being disclosed to a third party (other than to our service providers performing tasks on our behalf under our instructions); or, (ii) your personal data being used for a purpose that is materially different from the purpose(s) for which it was originally collected or subsequently authorized by you. | How to Exercise Rights: Contact privacy@twilio.com | 
+Additional Rights
+Depending on your jurisdiction, you may exercise specific controls over your data:
+- Sensitive Data: Restrict the use of sensitive personal data to what is strictly necessary for Service delivery. Twilio currently limits processing to the specific purposes in this Notice or as permitted by law.
+- EU Rights: If you believe data transfers from Europe to our U.S. headquarters or other non-US companies breach our BCRs, you may lodge a complaint with the transferring Twilio company or its local supervisory authority, or bring a court action against the company.
+- U.S. CPNI: U.S. account holders can opt-out of the use of Customer Proprietary Network Information (e.g., call quantity, type, and destination) for marketing new services without affecting current services.
+- Brazil: Brazilian data subjects may exercise Article 18 rights by contacting our Data Protection Officer at privacy@twilio.com.
+Security & Verification
+To protect your account, we must verify your identity before processing certain requests (e.g. deletion).
+- Verification Process: We typically ask for proof of your recent interactions with us or login verification.
+- Authorized Agents: If you use an authorized agent to make a request, we may require proof in the form of a power of attorney or written authority to act on your behalf.
+Limitations
+In certain cases, these rights may be limited or an exemption may be applicable, such as where Twilio can demonstrate that it has a legal requirement or legitimate interest to process your data. More information about these rights can be found in our Binding Corporate Rules Controller Policy Rule 10 and Appendix 3. We will not discriminate against you or change the price of our Services if you exercise your rights, but if you ask us to delete your data, it may affect your ability to use our Services.
+Important Note: If Twilio processes your data as a data processor on behalf of a customer, we will direct you to contact our customer to exercise your rights.
+Our Services are not directed to or intended to be used by children (under the age of 13 in the U.S. and UK, or 16 in the EEA). If we discover that a child has created an account, we will deactivate it and delete the data as quickly as possible. If you believe we have inadvertently collected data from a child, please contact us at privacy@twilio.com with the subject line “Children”.
+We use cookies, pixels, web beacons, and similar tools to secure our website, analyze performance, and deliver relevant ads. These tools help us recognize your device to make your experience more secure, efficient and tailored to your interests. Under some U.S. state laws, this is considered "sharing" or "targeted advertising."
+Cookies
+Cookies are small files stored on your device that help us recognize you, making your experience more efficient and personalized. We use both session cookies (which expire when you close your browser) and persistent cookies (which remain on your device for a set period). Our cookies fall into three categories:
+- Required: Essential for the website to function (e.g., secure log-in or remembering where you are at in the order process. You cannot opt-out of required cookies.
+- Functional: Used to remember your choices (e.g, language or region) and analyze site usage to improve customer experience and site performance. You can opt-out of functional cookies, however some site features may not work properly.
+- Advertising: Used to show you content and ads that are relevant to your interests. You can opt-out of advertising cookies at any time.
+Web Beacons (Pixels)
+Web beacons (or pixels) are 1x1 transparent images that can be embedded into our marketing emails and allow us to see if you opened an email or clicked a link, which helps us measure the effectiveness of our communications.
+Your Controls: How to Manage Tracking Technologies
+We provide multiple ways for you to manage tracking technologies:
+- Twilio Cookie Preferences Tool: The easiest way to manage your settings is by clicking the “Cookie Preferences” icon located in the footer of any Twilio website. Any choices concerning cookies are browser and/or device specific. If you clear your cookies from your browser on any of your devices, your choices will need to be reset.
+- Browser Settings: You can use your browser settings to opt out of Functional Cookies and Advertising Cookies. For more information on how to do that, click here. To manage privacy and storage settings for cookies, click here.
+- Universal Opt-Outs: Global Privacy Control (“GPC”) and Do Not Track (“DNT”) are tools that you can use to inform websites of your privacy preferences in regard to ad trackers. To set up GPC, you can visit the Global Privacy Control page. To set DNT, you can visit the All About DNT page. Please note that this may impact the functionality of our websites or your account.
+- Ad Industry Tools: To learn more about how to opt out of targeting and advertising cookies, you can visit Your Online Choices, the Network Advertising Initiative, and the Digital Advertising Alliance.
+If you utilize any of the following Services, we are required to provide additional details as to how we use the specified data categories and the purpose. Additional information regarding the products can be found at the links below or in the Twilio Docs.
+The Authy service is our standalone two-factor authentication (“2FA”) service for desktop and mobile. The Authy apps generate one time passwords and push notifications to provide an additional layer of security for your Authy-compatible accounts. Authy’s 2FA can be used independently or with applications that integrate directly with Authy 2FA API.
+Due to the nature of the Authy service, Twilio collects the following additional personal data elements to our other Services:
+- Identifiers - To create an Authy account, we require a phone number. We send a verification code to that phone number to be sure that the person creating the Authy account has control over the device. This phone number serves as your “primary device and the unique identifier for your Authy account. We use that phone number to identify you, provide 2FA services, and maintain security and anti-fraud logs. We also collect your email address for identity verification and account recovery purposes. 
+- Device Information - When you download and open the Authy desktop or mobile app, we automatically collect your device type and unique device identifier. This ensures we deliver the correct version of the app, as well as the appropriate technical support. We also use your device information to ensure proper delivery, maintenance, and security of the Authy app. 
+- Login History and Authy Account History - When you use an Authy token to log into an account, whether generated within the app or sent to your phone, we collect information associated with that activity. This includes your IP address, the application you accessed, and the timestamp of the login. We also maintain a log of any changes made to the phone number or email address associated with your account. We collect this information to monitor for suspicious activity and to verify your identity if we suspect your account may be compromised. 
+- Geolocation information - If you have location services enabled, we collect your location based on your IP address. We use this information for anti-fraud purposes, to detect suspicious activity, and as an additional data point to verify your identity in the event of a suspected account compromise. 
+Frontline Services
+To use the Frontline services, you must log in to the Frontline app using a third party account through your Single Sign-On provider. Authentication is managed by that third party, and we only collect the information you expressly authorize when you link your account with the Frontline app. We only access the information you or our customers provide, and we use it solely for the purposes for which it was shared. Please see the Frontline App Terms for specific details about your relationship with us.
+SendGrid Services
+The SendGrid Services also collect additional data through web beacons placed in the body of emails delivered via our platform. This allows us to track email engagement, including whether a message was delivered, opened, or clicked, bounced, or marked as spam. You can learn more about our use of web beacons in the section titled “Cookies and Tracking Technologies” above.
+Conversational Intelligence
+Conversational Intelligence incorporates artificial intelligence and machine learning to transcribe and analyze voice calls into a structured format that allows our customers to drive their business processes. To translate voice calls into structured content, Twilio processes certain data, including personal data within voice calls, as an independent controller. This includes information provided to us by our customers through their use of the Conversational Intelligence Service.
+How to Contact Us
+If you have questions about this Notice or our privacy practices, please contact our Data Protection Officer (“DPO”) at privacy@twilio.com.
+You can also write to us at our global headquarters:
+Resolving Complaints
+We aim to resolve any questions or concerns in accordance with our Complaints Handling Procedure. If you have a question or wish to lodge a complaint (whether related to our privacy practices or otherwise), please contact the Twilio Privacy Team at privacy@twilio.com or by mail at the physical addresses referenced under “How to Contact Us.”
+We encourage you to use these direct channels to ensure a prompt response, however, we will address complaints received through any other means. If we are unable to resolve your concern to your satisfaction, you may pursue further resolution through the following channels:
+- Data Privacy Frameworks (“DPF”): For practices covered by our DPF certification, contact our U.S.-based third party dispute resolution provider JAMS, (free of charge) at https://www.jamsadr.com/DPF-Dispute-Resolution. Under certain circumstances, you may also invoke binding arbitration. For details, see Annex I of the EU-U.S. Data Privacy Framework Principles.
+- Global CBPR and PRP Systems: For unresolved concerns related to our CBPR or PRP certifications, contact our U.S.-based third-party dispute resolution provider (free of charge) at https://feedback-form.truste.com/watchdog/request.
+- Data Protection Authorities: You may have the right to lodge a complaint with a local data protection authority or commence court proceedings under your local laws.
+- EEA Residents: You have the right to lodge a complaint with the Data Protection Commissioner in Ireland, where our EEA headquarters are located.
+- UK Residents: If you have a concern about our privacy practices, you have the right to lodge a complaint with the UK Information Commissioner’s Office (ICO). In accordance with the UK Data (Use and Access) Act, you are required to first submit your complaint directly to Twilio to allow us the opportunity to resolve the matter. We will acknowledge your complaint within 30 days and work to provide a substantive response without undue delay. If you remain unsatisfied after receiving our final response, you may then escalate your complaint to the ICO (www.ico.org.uk). 
+If your complaint relates to a company using our Services (e.g., you want to stop receiving emails from a specific brand), please contact that company directly. As a data processor, we cannot resolve complaints about our customers' data practices.
+In addition to the above regulatory bodies, Twilio Inc. is subject to the investigatory and enforcement powers of the Federal Trade Commission (FTC).
+Changes to Our Privacy Notice
+We periodically review and update this Notice to make clarifications or to reflect legal, technical, or business changes. The latest version will always be posted at twilio.com/legal/privacy with the “Last Updated” date at the top. If we make significant changes that affect your rights, we will provide advance notice via the Twilio console or by email and obtain your consent where legally required.

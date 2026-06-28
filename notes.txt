@@ -1,0 +1,200 @@
+================================================================================
+                        PROJECT Y - PRIVACY POLICY ANALYSIS
+                                  PROJECT NOTES
+================================================================================
+
+Date Started: June 19, 2026
+Purpose: Analyzing privacy policies for obfuscation patterns across companies
+
+================================================================================
+STEP 1: SOURCE DATA
+================================================================================
+
+File: companies_privacy_policies.csv
+- Contains 152 rows (150 companies + header + empty trailing line)
+- Columns: company name, url, company category
+- Categories: Finance, SaaS, Social, Tech
+- 2 rows had missing URLs (Credit Suisse, InVision) → filtered out
+- 148 valid company entries after cleanup
+
+================================================================================
+STEP 2: PRIVACY POLICY EXTRACTION
+================================================================================
+
+Tool Used: trafilatura (Python library)
+Script: process_policies.py
+
+Process:
+  1. Read companies_privacy_policies.csv
+  2. Filter out rows with missing URLs (2 removed: Credit Suisse, InVision)
+  3. For each company, download the privacy policy page using trafilatura.fetch_url()
+  4. Extract text content using trafilatura.extract()
+  5. Reject policies with fewer than 500 words (too short to be real policies)
+  6. Save results to dataset/privacy_policies.csv
+  7. Save raw text files to dataset/raw_text/{company}.txt
+
+Results:
+  - Successfully extracted: 81 policies
+  - Failed: 67 companies (download failures or text too short)
+
+Failed Companies (67):
+  Finance: Affirm, American Express, BNP Paribas, Bank of America, Binance,
+           BlackRock, Capital One, Charles Schwab, Chime, Deutsche Bank,
+           Discover, Fidelity Investments, ING Group, Intuit, Mastercard,
+           MoneyGram, Morgan Stanley, Plaid, RBC, Revolut, Robinhood,
+           Santander, Scotiabank, SoFi, TD Bank, UBS, Visa, Wells Fargo, Wise
+
+  SaaS:    Auth0, Box, Figma, Gartner, HashiCorp, Mailchimp, Notion, Procore,
+           ServiceNow, Zoom, ZoomInfo
+
+  Social:  DailyMotion, Fever, Foursquare, Instagram, KakaoTalk, Mastodon,
+           Meetup, Meta (Facebook), Nextdoor, Patreon, Quora, Reddit,
+           Telegram, TikTok, Tinder, Tumblr, Twitch, WhatsApp
+
+  Tech:    AMD, Acer, Airbnb, Amazon, Apple, Broadcom, Dell, Garmin, GoPro
+
+================================================================================
+STEP 3: DATASET OUTPUT
+================================================================================
+
+File: dataset/privacy_policies.csv (main dataset)
+- 81 rows of successfully extracted policies
+- Columns: company, industry, policy_url, policy_text, word_count,
+           sentence_count, char_count, avg_sentence_length
+
+File: dataset/raw_text/ (individual text files)
+- 81 .txt files, one per company
+- Contains the raw extracted privacy policy text
+- Useful for debugging extraction issues
+
+================================================================================
+STEP 4: FEATURE ENGINEERING
+================================================================================
+
+File: dataset/policy_features.csv
+- 81 rows, one per company
+- 9 feature columns (described below)
+
+Script: generate_features.py
+- Reads from dataset/privacy_policies.csv
+- Computes additional features (unique_words, readability scores, legal jargon)
+- Outputs to dataset/policy_features.csv
+
+Feature Dictionary:
+--------------------------------------------------------------------------------
+  Feature               | Meaning              | Description
+--------------------------------------------------------------------------------
+  word_count            | Length                | Total number of words in policy
+  sentence_count        | Complexity            | Total number of sentences
+  avg_sentence_length   | Readability           | Words per sentence (average)
+  char_count            | Size                  | Total character count
+  unique_words          | Vocabulary Richness   | Number of distinct words used
+  flesch_reading_ease   | Readability Score     | Higher = easier to read
+                        |                       |   90-100: Very easy (5th grade)
+                        |                       |   60-70:  Standard
+                        |                       |   30-50:  Difficult
+                        |                       |   0-30:   Very confusing
+  flesch_kincaid_grade  | Grade Level           | US school grade level needed
+  legal_term_count      | Jargon Density        | Count of legal terms found
+--------------------------------------------------------------------------------
+
+================================================================================
+STEP 5: READABILITY SCORES
+================================================================================
+
+Library Used: textstat
+
+Metrics Computed:
+  - Flesch Reading Ease: Scale 0-100, higher = easier to read
+  - Flesch-Kincaid Grade Level: US school grade needed to understand
+
+Key Findings:
+  Hardest to Read (lowest Flesch scores):
+    - Equifax:    11.20 (grade 18.5) — extremely difficult
+    - Salesforce: 11.87 (grade 21.1) — college graduate level
+    - Monday.com: 15.82 (grade 19.0) — very confusing
+
+  Easiest to Read (highest Flesch scores):
+    - Goodreads:  52.16 (grade 10.5) — fairly easy
+    - Bumble:     48.91 (grade 24.1) — note: high grade due to very long sentences
+    - HSBC:       46.68 (grade 13.0) — moderate
+    - Snapchat:   46.64 (grade 12.3) — moderate
+    - Pinterest:  45.69 (grade 11.9) — moderate
+
+  Longest Policies:
+    - Stripe:     27,420 words (160,728 chars)
+    - WeChat:     19,357 words (120,214 chars)
+    - Bumble:     16,380 words (83,813 chars)
+
+  Shortest Policies (that passed 500-word filter):
+    - Bose:       525 words
+    - Equifax:    939 words
+    - Goodreads:  951 words
+
+================================================================================
+STEP 6: LEGAL JARGON DICTIONARY
+================================================================================
+
+Legal terms tracked (case-insensitive, word-boundary matching):
+  1. affiliate
+  2. third party
+  3. arbitration
+  4. indemnify
+  5. consent
+  6. retention
+  7. processor
+  8. controller
+  9. jurisdiction
+  10. liability
+
+Combined into single column: legal_term_count
+
+Top Legal Jargon Usage:
+  - Freshworks:  90 occurrences
+  - Salesforce:  70 occurrences
+  - Stripe:      68 occurrences
+  - DocuSign:    67 occurrences
+  - Squarespace: 63 occurrences
+  - Canva:       62 occurrences
+
+Companies with Zero Legal Jargon Detected:
+  - Barclays, Equifax, Experian, Klarna
+
+================================================================================
+PROJECT FILE STRUCTURE
+================================================================================
+
+d:\Project Y\
+├── companies_privacy_policies.csv    (source: 150 companies with URLs)
+├── process_policies.py               (script: download & extract policies)
+├── generate_features.py              (script: compute features from policies)
+├── notes.txt                         (this file)
+└── dataset\
+    ├── privacy_policies.csv          (81 rows: full policy text + basic stats)
+    ├── policy_features.csv           (81 rows: all computed features, no text)
+    └── raw_text\                     (81 .txt files: individual policy texts)
+        ├── Adyen.txt
+        ├── Barclays.txt
+        ├── ...
+        └── Google.txt
+
+================================================================================
+TOOLS & DEPENDENCIES
+================================================================================
+
+Python Libraries:
+  - trafilatura  (v2.1.0)  — web page content extraction
+  - textstat     (v0.7.13) — readability score computation
+  - csv, re, os, time, sys — Python standard library
+
+================================================================================
+NEXT STEPS (POTENTIAL)
+================================================================================
+
+  - Retry failed companies with alternative extraction methods
+  - Add more NLP features (sentiment, passive voice %, vague language count)
+  - Build obfuscation scoring model using computed features
+  - Visualize feature distributions across industries
+  - Compare readability across Finance vs SaaS vs Social vs Tech
+
+================================================================================

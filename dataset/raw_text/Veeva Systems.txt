@@ -1,0 +1,203 @@
+Veeva and Privacy
+Updated: May 12, 2026
+Veeva Systems is committed to maintaining a privacy program that is designed around trust, transparency and respecting your rights in your personal information. This privacy notice describes how we process personal information, including what information we collect, why we collect it, how we use it, how we may share it, and your controls over your personal information.
+This privacy notice describes the personal information that we process as part of:
+- Our websites where this privacy notice is provided,
+- Veeva-sponsored events and marketing activities,
+- Engaging with representatives of our customers, suppliers and prospective customers and suppliers, and
+- Our products.
+Our Job Applicant Data Privacy Notice can be found by visiting careers.veeva.com.
+Websites. When you visit our websites, we collect the following types of information.
+| Category of Information | Description | 
+|---|---|
+| Device & Usage | We collect device and usage information such as cookie records, browser type, internet service provider (ISP), device IP address, operating systems and versions, device motion data, web beacons and clickstream data. | 
+| Registration | When you create an account, respond to surveys, register for events, subscribe to publications, or engage in any similar activities through our websites, we collect information that you provide through that process, such as your name, email address, phone number, username and password, job title and survey responses. | 
+| Account Verification | If you log into an account you’ve created with us, we collect your IP address, username and password, and other related information we need to verify you are the account owner, before allowing you to access that account. | 
+Events and Marketing. When you register to attend a Veeva-sponsored event, such as a webinar, summit or forum, or subscribe to our publications and newsletters, we collect the following types of information about you.
+| Category of Information | Description | 
+|---|---|
+| Registration | When you create an account, respond to surveys, register for events, subscribe to publications, or engage in any similar activities through our websites, we collect information that you provide through that process, such as your name, email address, phone number, username and password, job title, survey responses and profile photos. | 
+| Account Verification | If you log into an account you’ve created with us, we collect your IP address, username and password, and other related information we need to verify you are the account owner, before allowing you to access that account. | 
+| Transactional | If there is a fee for the event you have registered for, we will collect information that allows us to collect and process your payment which may include your bank account information or credit or debit card number. | 
+| Attendance | When you attend a Veeva-sponsored event, we collect information about the events you attend and how you engage with us and other event sponsors during the event. We may also take video recordings and photographs during the event that may include your likeness. | 
+| Public Forums | If you engage in our public forums, we collect information you provide such as your public posts. | 
+| Device & Usage | When you attend an online event and access our publications and newsletters, we collect device and usage information such as cookie records, browser type, internet service provider (ISP), device IP address, operating systems and versions, advertising identifiers, device motion data, web beacons and clickstream data. | 
+| Travel Accommodations | For in-person events, we may assist with your travel and hotel arrangements and in these cases, we collect information from you to enable us to provide this assistance such as airline and flight information, lodging and dates of travel. We do not collect precise geolocation information. | 
+Representatives of Customers, Suppliers and Prospective Customers and Suppliers. If you are a representative of a Veeva customer, supplier or prospective customer or supplier, we collect the following types of information about you.
+| Category of Information | Description | 
+|---|---|
+| Professional Identity & Contact | We collect information such as your name, email address, phone number, gender, membership in professional associations, unique identification number assigned to your profession (such as NPI and license number) and the name, size and location of the company you work for and your role within it. | 
+Our Products.
+As part of our data products, we collect the following types of personal information related to the professional identity of healthcare providers and other industry professionals and stakeholders.
+| Category of Information | Description | 
+|---|---|
+| Professional Identity & Contact | We collect information such as your name, email address, phone number, gender, membership in professional associations, unique identification number assigned to your profession (such as NPI and license number) and the name, size and location of the company you work for and your role within it. | 
+| Professional Activity | We collect information about your professional activity such as your specialty, educational background, references, contributions to events, participation in clinical trials, publications and publicly available collaborations between you and other professionals or companies in the life sciences industry context. | 
+| Professional Social Media | We collect professional social media information such as hyperlinks to professional network sites, posted content, handles, tweets, hashtags, likes, followers and mentions. | 
+| Professional Images and Recordings | We collect publicly available video recordings and photographs. | 
+| Inferences | We collect inferences, such as your interests and engagement preferences, that may be drawn from the above identifiers. | 
+We may combine your information with anonymized data files to help improve decisions on how to interact with you and other healthcare professionals.
+As part of our healthcare marketing and analytic products, we collect the following types of personal information about consumers within the United States.
+| Category of Information | Description | 
+|---|---|
+| Demographic | We collect demographic information such as your name, email address, phone number, gender, age, education level and address. | 
+| Device & Usage | When you attend an online event and access our publications and newsletters, we collect device and usage information such as cookie records, browser type, internet service provider (ISP), device IP address, operating systems and versions, advertising identifiers, device motion data, web beacons and clickstream data. | 
+| Consumer Attributes | We collect consumer information such as buying activity, media consumption, hobbies and interests, buying channel preferences (e.g., online, in store) and travel preferences. | 
+| Inferences | We collect inferences, such as your interests and engagement preferences, that may be drawn from the above identifiers. | 
+We also process health-related information that has been certified by expert determination to meet the Health Insurance Portability and Accountability Act’s (HIPAA’s) de-identification standards such that the information is no longer considered protected health information or personal information subject to this privacy notice. We do not re-identify or attempt to re-identify any data which has been de-identified.
+Websites. When you visit our websites, we collect your information directly from you and indirectly from you by observing your actions on our website or from your devices. This includes collecting information using analytic tools and other tracking technologies. Please see our Cookie Notice for more information.
+Events and Marketing. When you register to attend a Veeva-sponsored event or subscribe to our publications and newsletters, we collect your information from you when you register, as directed by you during the registration process, as you engage with us and as you participate in activities and forums we provide.
+Representatives of Customers, Suppliers and Prospective Customers and Suppliers. If you are a representative of a Veeva customer, supplier or prospective customer or supplier, we collect your information directly from you, your employer, our customers and suppliers and from publicly available websites such as LinkedIn.
+Our Products. As part of our data products, we collect personal information about healthcare providers and other industry professionals and stakeholders from publicly available sources including government and public records, association websites, institutional websites (hospitals, universities, medical facilities), medical databases and registries, and other online professional profiles and web sources related to your professional activity. We may also collect personal information directly from you, your employer and affiliates, our customers and suppliers who license data to us.
+As part of our healthcare marketing and analytic products, we don’t directly collect your personal information. We source demographic and consumer information from third-party consumer data partners who maintain databases containing information on adult consumers in the United States.
+Websites. When you visit our websites, we collect your information to help us understand how you interact with us, to provide you with relevant information and services, and to help us to ensure our websites are working as designed. This includes processing personal information as necessary to analyze, improve and optimize the delivery and use of our websites and their security.
+Events and Marketing. When you register to attend a Veeva-sponsored event or subscribe to our publications and newsletters, we collect your information to:
+- provide you with the experience and information you’ve registered for or subscribed to;
+- inform you of other events or information we believe you may be interested in;
+- analyze, improve and promote our events, campaigns, products and services;
+- personalize your content and experiences; and
+- enable our suppliers, who are also participating in the Veeva-sponsored event, to contact you about their related products and services.
+Representatives of Customers, Suppliers and Prospective Customers and Suppliers. If you are a representative of a Veeva customer, supplier or prospective customer or supplier, we collect information about you to allow us to provide you with information about us, the products, services and events we offer, and how we may work together. We also use your information to communicate with you to support, facilitate and advance our relationship.
+Our Products. As part of our data products, we collect personal information about healthcare organizations, healthcare providers, and other related industry professionals and stakeholders (collectively, “Healthcare Professionals”) to facilitate our life sciences customers’ communication with them. This enables our life sciences customers to provide up-to-date scientific, medical information and promotional materials to Healthcare Professionals and to engage with Healthcare Professionals in context of drug development and better patient care.
+As part of our healthcare marketing and analytic products, we collect personal information to help health brands communicate more effectively with consumers and to measure the impact of healthcare marketing. Relevant health communications enable consumers to make more informed choices about their health care.
+The most effective way to deliver relevant communications to the right consumers starts with a deep understanding of the intended audience. We do this by using data and analytics to understand the demographic and consumer characteristics – e.g., age, gender, lifestyle, geography, etc. – most relevant to certain health conditions. More specifically, we use personal information to create “Audience Segments” – groupings of individuals based on non-medical demographic characteristics. Our customers use these Audience Segments to deliver tailored advertising to relevant consumers. You can find out more about our Audience Segments here. While some of our Audience Segments target health and health-related conditions, these segments are based on demographic characteristics alone and do not contain identifiable consumer health information or purport to reveal or infer that any given individual has a specific medical condition or diagnosis.
+To make our Audience Segments available for tailored advertising in digital environments, we may ask our partners to identify devices or browsers of users with specific demographic and consumer attributes, and the users of these identified devices or browsers may receive tailored advertising in their web browsers, within mobile applications, and on connected TVs. Tailored advertising does not include using your interactions with us or information that you provide to us to select advertisements to show you.
+To help our customers measure the impact of their marketing campaigns, we connect pseudonymized media exposure data (information that we are unable link back to you) with health information that has been de-identified in accordance with the Health Insurance Portability and Accountability Act’s (HIPAA’s) de-identification standards. We report only aggregated insights to our customers; we never report person- or device-level information.
+Automated Processing. We do not make decisions about you which have legal or similarly significant effects on you, based solely on the automated processing, including profiling, of your data.
+We may share personal information internally and with our subsidiaries and third parties for the following purposes:
+- to support the purposes described in the section above entitled “Why We Collect Information and How We Use It”;
+- to enable third parties to provide services on our behalf;
+- to comply with applicable law, legal obligations and valid legal processes such as search warrants, subpoenas, or court orders;
+- as necessary to establish, exercise or defend against potential, threatened or actual litigation;
+- when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, or investigate or prevent fraud or other illegal activity;
+- in connection with a merger, sale or asset transfer; and
+- for additional purposes with your consent, where consent is required by law.
+When we share your personal information, we will take reasonable steps to ensure that we only share the minimum personal information necessary for the specific purpose and circumstance.
+We may provide bulletin boards, blogs, or chat rooms on our websites. Any personal information you choose to submit in such a forum may be read, collected, or used by others who visit these forums and may be used to send you unsolicited messages. We are not responsible for the personal information you choose to submit in these forums.
+We may post lists of customers and testimonials on our websites that contain information such as customer names and titles. We obtain the consent of each customer prior to posting any information on such a list or posting testimonials. To request removal of your personal information from our blog or forum or to have your testimonials removed, contact us at privacy@veeva.com.
+Our Products.
+As part of our data products, we also share personal information with pharmaceutical, biotechnology and medical device companies (the life sciences industry) to allow those companies to provide you with scientific information about their products and services and as required by applicable law.
+As part of our healthcare marketing and analytic products, we also share personal information with our customers in the life sciences industry (pharmaceutical, biotechnology and medical device companies), and media platforms in order to provide our products to our customers. We do not “sell” or “share” sensitive personal information or process sensitive personal information for targeted advertising as such terms are defined under applicable data protection laws.
+Do Not Sell or Share My Personal Information
+Some states in the U.S. provide residents with the right to opt out of the sale, sharing, or use of their personal information for targeted advertising. We process your personal information for various purposes, some of which may be deemed by the laws in these states as a “sale” or “sharing” of your personal information or as “targeted advertising.” Visit our Do Not Sell or Share page for more information about our practices and how you can exercise your rights.
+Scope
+We use information-gathering tools, such as cookies, pixels and web beacons, to collect information about you as you navigate our websites. These technologies are used in analyzing trends, administering the site, tracking users’ movements around the site and to gather demographic information about our user base.
+Cookies
+When you visit our website, our website asks your browser to store small text files called “cookies” on your device. Cookies are used to collect information about you, your preferences or your device.
+We only use strictly necessary cookies on our website. You cannot deactivate our use of strictly necessary cookies because these cookies are deployed to ensure the proper functioning of our website. These cookies do not store any personally identifiable information.
+You can delete all cookies that are stored in your browser, and you can set most browsers to prevent them from being placed. If you do this, you may have to manually adjust some preferences every time you visit the website and some services and functionalities may not work. Please note that your choices are specific to the website you are navigating and to the device and browser you are using. For more information about how cookies work, see aboutcookies.org.
+Web Beacons and Similar Technologies
+We use web beacons and similar technologies to understand how you use our websites and interact with emails from us and to improve our websites and email communications. Web beacons are clear electronic images that help us understand what content you have accessed. Web beacons do not place information on your device, but they may work in conjunction with cookies to monitor website activity. For example, we may place web beacons in marketing emails that notify us when you click on a link in the email that directs you to one of our websites.
+Global Privacy Controls
+Global Privacy Controls are mechanisms that allow you to opt out of the sale of your personal information or the use of your personal information for targeted advertising purposes. If you turn on a Global Privacy Control setting and we detect an opt out preference signal, we will honor that preference.
+Websites and Apps. We only keep your information for as long as it is necessary and relevant for the purposes described in this privacy notice. We retain your information for two years only (or as otherwise required by law).
+Events and Marketing. We only keep your information for as long as it is necessary and relevant for the purposes described in this privacy notice.
+Representatives of Customers, Suppliers and Prospective Customers and Suppliers. We retain your information for as long as your account is active, as needed to provide you services, and as necessary to comply with our legal obligations, resolve disputes, enforce our agreements, or as otherwise reasonably necessary for our business purposes.
+Our Products. As part of our data products, we keep your information for 10 years after you are no longer professionally active.
+As part of our healthcare marketing and analytic products, we retain personal information for up to 12 months from the date we last used the information.
+We offer you certain controls over your information. These controls may include the right to know what information we hold about you, the right to correct your inaccurate information, the right to delete your information, the right to receive a copy of your information in a portal and readily usable format, the right to obtain a list of the specific third parties with whom we may have disclosed your information, the right to limit the use or disclosure of your sensitive information, the right to opt-out of the sale of or use of your information for targeted advertising, and the right not to receive discriminatory treatment for the exercise of your privacy rights. The availability of these controls vary based on your state of residence.
+Any U.S. resident may opt out of the sale or sharing of their personal information within our consumer-based advertising products and services.
+If you wish to exercise your privacy rights, click here or call us, (free of charge) at 1 (877) 807-3230. We will respond to your request in accordance with applicable laws, depending on where you live. In order to process your request, we require certain information about you. We will only use this information to verify your identity and facilitate the processing of your request. We may require you to provide proof of your identity.
+You may use an authorized agent to submit a request on your behalf. Authorized agents can submit requests using the Authorized Agent and Requests Form. Authorized agents must provide appropriate documentation of their authorization (e.g., power of attorney).
+There may be times when we are unable to fulfill your request; in those cases, we will let you know why we are unable to fulfill your request. If we deny or are otherwise unable to fulfill your request, you may have the right to appeal. To submit an appeal, you may use our Privacy Requests Appeal Form. If we deny your appeal, you may submit a complaint to the attorney general in your state of residence.
+To unsubscribe from Veeva marketing emails, click on the “unsubscribe” link located on the bottom of the email. Please note that customers cannot opt out of receiving transactional emails related to the use of Veeva’s products and services.
+Our websites and services are not designed for or directed at children, and we do not knowingly collect personal information from children under the age of 13. We do not knowingly collect any information from children under the age of 18 as part of our data products or our healthcare marketing and analytic products.
+If you believe we may have mistakenly collected the personal information of a minor without appropriate consent, please contact us using the methods described in the “Contact Us” section and we will investigate and promptly address the issue.
+We maintain a privacy and security program with technical, physical and organizational safeguards designed to protect against the wrongful access, use or disclosure of personal information, and to provide a level of security which we believe is appropriate to the risk our processing of your personal information poses to your privacy. We regularly review and modify our security measures to reflect changing technology, laws and regulations, risk, industry and security practices and other business needs. More information about our security program can be found here.
+We are a global company. As a global company, we may transfer your personal information to various locations around the world for the purposes described in this privacy notice. We apply the protections and limitations described in this privacy notice regardless of where we process your personal information.
+We also comply with various legal frameworks that enable the cross-border transfer of personal information. Where required, we rely on transfer mechanisms that lawfully support data transfer to other jurisdictions, such as Standard Contractual Clauses, “adequacy” determinations, obtaining your consent or another recognized transfer mechanism.
+Data Privacy Framework
+Veeva Systems Inc. complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF (UK Extension), and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. We have certified to the U.S. Department of Commerce that we adhere to the (i) EU-U.S. DPF Principles with regard to the processing of personal information received from the European Union in reliance on the EU-U.S. DPF and from the United Kingdom (and Gibraltar) in reliance on the UK Extension, and (ii) Swiss-U.S. DPF Principles with regard to the processing of personal information received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this privacy notice and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the Principles shall govern. To learn more about the DPF program and to view our certification visit the Data Privacy Framework Program website.
+The DPF applies to European, Swiss and UK individuals whose personal information is transferred to the United States. In compliance with the DPF, we allow these individuals the opportunity to choose (through an opt-out mechanism) whether their personal information is to be disclosed to a third party or used for a purpose that is materially different from the purpose(s) for which it was originally collected or subsequently authorized. The Your Controls section provides more information about these rights and the mechanisms we provide to exercise them. If we collect sensitive personal information on these individuals, we will obtain explicit consent before disclosing sensitive personal information to a third party or using it for a purpose that is materially different from the purpose(s) for which it was originally collected or subsequently authorized.
+If you have questions or concerns regarding our handling of your personal information under the DPF or about our privacy program generally, please contact us at privacy@veeva.com. If you have an unresolved privacy or data use concern that we have not addressed satisfactorily, please contact our U.S.-based third party dispute resolution provider, TrustArc, (free of charge) at feedback-form.trustarc.com/watchdog/request. If neither process resolves your question or concern, you may be able to pursue binding arbitration; visit the Data Privacy Framework Program website for more information about how to submit a complaint.
+The Federal Trade Commission has jurisdiction over our compliance with the EU-U.S. DPF, the UK Extension, and the Swiss-U.S. DPF. We remain responsible for personal information that we transfer to third parties for processing on our behalf. We may be required to disclose personal information that we handle under the DPF in response to lawful requests by public authorities, including to meet national security or law enforcement requirements, as described in more detail by our Government Access Request Policy.
+Veeva’s Government Access Request Policy
+This Government Access Request Policy describes how we respond to requests from governmental and other public authorities (collectively, “Government Authorities”) for access to Customer Data (as defined in our customer agreements) or other personal information (collectively, “Data”).
+Validity. We do not voluntarily disclose Data to Government Authorities. We only disclose Data where there is a valid legal basis to do so (such as through a warrant, subpoena or court order). We review all requests on a case-by-case basis and in accordance with applicable law. If we determine there is a valid legal basis for the request, we comply by providing the least amount of Data necessary to respond to the request.
+We never create backdoors in our products or services to allow Government Authorities to access Data.
+Challenges. We challenge requests if we believe:
+- there is no valid legal basis for it,
+- the request is unlawful,
+- the request is unclear, overly broad or inappropriate, or
+- where compliance with the request would put us in potential breach of applicable laws in another country.
+Notification. We notify our customers if a Government Authority requests their Data unless we are legally prohibited from doing so, in the event of an emergency (such as to prevent imminent death or serious physical harm to an individual) or in cases where we reasonably believe such notice would be counterproductive.
+Transparency Report. We publish a report of requests we have received and our response to them. We update this report semi-annually.
+| Type of Request | Country of Origin of the Request | Action Taken | Year | 
+|---|---|---|---|
+| Subpoena | US | Fulfilled | 2020 | 
+| Search Warrant | US | Fulfilled | 2020 | 
+Updated: December 17, 2025
+The personal information that we process on behalf of and to provide products and services to our customers, including when customer representatives are users of our products and services, is subject to the terms and conditions of our customer agreements.
+Where requested, we offer a Data Processing Addendum and Standard Contractual Clauses to enable our customers to comply with data protection laws applicable to our processing of personal information on their behalf. We process, transfer and maintain customer personal information strictly in accordance with our customer agreements and applicable law.
+If you are interested in learning about our customers’ use of your personal information, we encourage you to contact the customer. We cooperate with our customers if they need our assistance in fulfilling requests from individuals to exercise their data privacy rights.
+Information about our security program can be found here. A list of our support locations and of our sub-processors can be found here.
+From time-to-time, we may change our privacy notice to reflect changing technology, laws, regulations, risk, industry and security practices and other business needs. The most up-to-date version will be found on this website; we post its effective date at the top. If we make a material update, we may notify you by posting notice on our website or by other means, consistent with applicable law.
+If you wish to exercise your privacy rights, click here.
+If you have any questions about our privacy practices, you can contact our Chief Privacy Officer at:
+          Veeva Systems Inc.
+          4280 Hacienda Drive 
+          Pleasanton, CA 94588 USA 
+          privacy@veeva.com
+        
+If you have an unresolved privacy or data use concern that we have not addressed satisfactorily, please contact our U.S.-based third party dispute resolution provider, TrustArc, (free of charge) at feedback-form.trustarc.com/watchdog/request.
+Websites and Apps. The legal basis for processing internet protocol addresses is our legitimate interest in providing the Veeva website. The legal basis for the processing of usage data is your consent. If data is collected from you on the basis of consent, we will indicate whether the data in question is required or voluntary information.
+Events and Marketing. The legal basis for processing our events and marketing information is that the processing is necessary for the performance of a contract with you or is otherwise processed with your consent.
+Representatives of Customers, Suppliers and Prospective Customers and Suppliers. The legal basis for processing personal information about representatives of our existing and potential customers and suppliers is our legitimate interest in supporting our existing or potential business relationship with such customer or supplier.
+Our Products. The legal basis for processing personal information as part of our data products, is our legitimate interest (under Art. 6 Para. 1 lit. f GDPR or UK GDPR). Our customers have a legitimate interest in communicating with healthcare providers and other professionals to improve therapy, patient care and drug development. Our legitimate interest is to provide information and insights to facilitate such communication.
+Our healthcare marketing and analytic products are currently only available in the United States.
+Contact Us
+If you have any questions about our privacy practices, you can contact our Chief Privacy Officer at privacy@veeva.com or our EU Data Protection Officer at eudpo@veeva.com. You can also write to our data controller, Veeva Systems Inc., or our various local representatives, at the addresses below:
+        Veeva Systems Inc.
+        Attention: EU Data Protection Officer
+        4280 Hacienda Drive
+        Pleasanton, CA 94588 USA
+        
+Local representatives of the data controller:
+        Germany
+        Veeva Systems GmbH
+        Attention: EU Data Protection Officer
+        Taunusanlage 16/3 og
+        60325 Frankfurt am Main
+        
+        UK
+        Veeva Systems UK Ltd
+        Attention: EU Data Protection Officer
+        6th Floor, The Metropolis Building
+        1-5 Harewood Avenue, London NW1 6JQ
+        
+        Turkey (data controller representative authorised to represent Veeva in the matters specified in the third paragraph of Article 11 of the Regulation on the Data Controllers’ Registry)
+        Gökçe Yönetim ve Danışmanlık A.Ş.
+        İzzet Paşa Mah. Abide-i Hürriyet Cad. Biz Cevahir İş Merkezi No: 158 İç Kapı No: 2
+        Şişli / İstanbul / Türkiye
+        
+If you have an unresolved privacy or data use concern that we have not addressed satisfactorily, please contact our U.S.-based third party dispute resolution provider, TrustArc, (free of charge) at feedback-form.trustarc.com/watchdog/request.
+The following additional notice applies to residents of California.
+The categories of personal information we collect include:
+- Identifiers such as a real name, alias, postal address, unique personal identifier, online identifier, Internet Protocol address, email address, account name, social security number, driver’s license number, passport number, or other similar identifiers.
+- Personal Information categories as defined in the California Customer Records statute, Cal. Civ. Code Section 1798.80, such as name, education, employment, employment history and financial information.
+- Characteristics of Protected Classifications under California or Federal Law.
+- Commercial information, including records of personal property, products or services purchased, obtained, or considered, or other purchasing or consuming histories or tendencies.
+- Internet or other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding a consumer’s interaction with an internet website application, or advertisement.
+- Geolocation data, such as locations determined by an IP address or other technical measures.
+- Audio, electronic, visual and similar information, such as images and audio, video or call recordings.
+- Professional or employment-related information, such as job title as well as work history and experience.
+- Inferences drawn from any of the personal information collected to create a profile or summary about, for example, an individual’s preferences and characteristics*.
+- Sensitive personal information may include:
+- A consumer’s account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account.
+- A consumer’s racial or ethnic origin, citizenship or immigration status, religious or philosophical beliefs, or union membership.
+* Only as defined under the California Consumer Privacy Act (CCPA). We use personal information to create our Audience Segments (groupings of individuals based on non-medical demographic characteristics). Our customers use these Audience Segments to deliver tailored advertising to relevant consumers via digital and TV advertisements. While some of our Audience Segments target health and health-related conditions, these segments are based on demographic characteristics alone and do not contain identifiable consumer health information or purport to reveal or infer that any given individual has a specific medical condition or diagnosis.
+We collect this information to support the purposes described in the section of this privacy notice entitled “Why We Collect Information and How We Use It”. We collect your personal information from the sources described under the “How We Collect Information” section of this privacy notice. We disclose the information from the above listed categories for the purposes and to the categories of recipients described in the section of this privacy notice entitled “Sharing Your Information”.
+We process your personal information for various purposes, some of which may be deemed as a “sale” or “sharing” of your personal data under the CCPA. As defined by the CCPA, we sell or share certain data elements within the following categories of personal information: identifiers; personal information categories as defined in the California Customer Records statute; characteristics of protected classes; internet or other electronic network activities; audio, electronic, visual and similar information; professional or employment-related information; and inferences.
+Generally, we sell this information to or share it with pharmaceutical, biotechnology and medical device companies (the life sciences industry), data analytics providers, consumer data resellers and advertising networks, as further described in the section of this privacy notice entitled “Sharing Your Information” for the purposes described in the section entitled “Why We Collect Information and How We Use It”.
+We do not use or disclose sensitive personal information for any purpose other than those specified in Section 7027(m) of the CCPA regulations.
+CCPA Privacy Rights Metrics
+| Request Type | |||||
+|---|---|---|---|---|---|
+| Know | Delete | Correct | Opt-Out | Limit | |
+| Requests Received | 6 | 333 | 0 | 252 | 0 | 
+| Requests Completed (in whole or in part) | 6 | 322 | 0 | 213 | 0 | 
+| Requests Denied* | 0 | 11 | 0 | 39 | 0 | 
+| Mean Number of Days | 3.7 | 3.6 | N/A | 2.7 | N/A | 
+| Median Number of Days | 2 | 3 | N/A | 2 | N/A | 
+This data reflects requests received from consumers in the State of California from January 1, 2025 – December 31, 2025, using the methods described in this privacy notice. Requests that were in process as of December 31 are not reflected in the above numbers.
+* Requests may have been denied due to a variety of reasons, including where we were unable to verify the request or where the requestor withdrew their request.

@@ -1,0 +1,193 @@
+Workday Privacy Statement
+Effective: February 27, 2026
+Download/print a copy of this Privacy Statement
+At Workday, we believe privacy is a fundamental right, no matter where you live. When you connect with us, we understand you are trusting us with your personal information. That is why we are committed to transparency about how we collect, use, and share that information.
+About Workday.
+Workday is a leading provider of enterprise cloud applications for finance and human resources. This means Workday customers—companies, schools, and governments—use our software applications to manage their workforces and/or finances.
+While Workday has a range of software applications, our flagship products are our human capital management (HCM) and financial management applications. Our HCM applications allow customers to recruit, hire, train, manage, and promote their workforce. Our financial management applications allow our customers to manage their finance processes, from record to report, procure to pay, and contract to cash.
+To learn more about Workday products, visit our product page.
+The Workday business model.
+We operate a Software-as-a-Service (SaaS) business model typically for enterprise customers, meaning we do not sell our customers’ users’ data or monetize that data by selling advertising. Instead, we sell subscriptions to our services. Our customers control the data they and their end users put into our services and how it is used. How we use and disclose our customer representatives’ data is described in more detail below.
+What does this privacy statement cover?
+Data protection laws often distinguish between “controllers” and “processors” of personal information. While some laws may use different terminology, the core concept remains the same. A controller decides why and how personal information is handled. A processor only handles personal information on behalf of a controller, following their instructions. Depending on the situation, Workday can be either a controller or a processor.
+This Privacy Statement only applies when Workday is acting as a controller for your personal information.
+When Workday is the controller
+This Privacy Statement applies when you interact with us directly, and we determine why and how your personal information is processed. This includes situations where you:
+- Visit a Workday website that links to this Privacy Statement
+- Interact with Workday as a representative of a company that has (or is considering) a business relationship with us (e.g., you are our customer or our supplier)
+- Create a user account directly with Workday
+- Register for or attend a Workday marketing, learning, or training event or webinar
+- Provide us with feedback about our products or services
+- Receive sales or marketing communications from us, such as emails or phone calls
+When you use Workday’s enterprise cloud applications
+When you use a Workday enterprise cloud application provided by your employer or another organization, that organization is the controller of your personal information. In these cases, Workday acts as a processor on their behalf. Our handling of your personal information is then governed by our contract with that organization, not this Privacy Statement. If you have questions about how your organization uses your personal information with Workday, or if you want to exercise your data protection rights, please contact your organization directly.
+Even when we act as a processor for your organization, we still collect some limited information about how you use our enterprise cloud applications. We process this information as a controller, and we describe this in the Information collected when using our enterprise cloud applications section.
+Information you provide to us.
+Sometimes, we ask you to voluntarily provide personal information. For example, we may ask you to provide your contact details to create an account with us, to receive marketing communications from us, or to send us an inquiry.In some cases, we combine the information you provide.
+When you request information from us.
+You are filling out a contact form, signing up for a webinar, or otherwise contacting us to express interest in Workday or our services.
+- What we collect: Your business contact information such as name, email, telephone number, company name, job details, and address.
+- Why we collect it: To respond to your requests and provide you with product information (including telemarketing calls and marketing emails, in accordance with your marketing preferences).
+- Legal basis: Our legitimate business interests or your consent (if required).
+If you are our customer or prospective customer.
+You are a representative of a company that has (or is exploring) a business relationship with Workday.
+- What we collect: Your business contact information such as your name, email, telephone number, company name, and information about the reason for the inquiry and any other details you choose to provide.
+- Why we collect it: To communicate with you, fulfill your requests, manage your organization’s account, and provide you with product information (including telemarketing calls and marketing emails, in accordance with your marketing preferences).
+- Legal basis: Our legitimate business interests or your consent (if required).
+If you are our supplier.
+You are a representative of a company that provides Workday with products or services.
+- What we collect: Your business contact information such as your name, email, telephone number, and company name.
+- Why we collect it: To manage your organization’s account and respond to your inquiries.
+- Legal basis: To fulfill our contract with you, or our legitimate business interests if there’s no direct contract.
+If you have a Workday-owned account.
+If you register for an account directly with Workday for example, if you register for an account to access Workday Community or as a user of Workday Strategic Sourcing.
+- What we collect: Your name, email, company name, optional profile details (like a photo), authentication information (like a mobile number or other unique verification identifier), training enrollment, and attendance details.
+- Why we collect it: To manage your account, ensure secure login, and deliver requested services (including personalized experiences).
+- Legal basis: To fulfill our contract with you or our legitimate business interests if there’s no direct contract.
+If you register for a Workday event.
+- What we collect: Your contact information (name, email, phone, company), health and safety details (emergency contact, dietary preferences), and billing information (name, address, credit card number).
+- Why we collect it: To manage and host the event, enhance your experience, and provide product information (including telemarketing calls and marketing emails, in accordance with your marketing preferences).
+- Legal basis: Your consent (if required) to fulfill our contract with you or our legitimate business interests if there’s no direct contract.
+If you participate in research or surveys.
+- What we collect: Your name, email address, contact information, time zone, location, company, job details, gender, age group, and other information relevant to the study. For certain studies, we may also take photos, videos, or audio recordings (with your permission and in accordance with applicable laws).
+- Why we collect it: Fulfill the purpose set out in the study or survey, improve the user experience, identify suitable research for you, identify product improvements, understand your feedback, and improve how we conduct research.
+- Legal basis: To fulfill a contract with you, or our legitimate business interests (if no direct contract or consent is obtained).
+If you participate in a sales call or online meeting.
+We may record sales phone calls and online meetings for training, quality assurance, and administration purposes. We will always notify you before a call will be recorded and will obtain your consent where required by law.
+- What we collect: Audio and, if applicable, video content of recorded calls/meetings.
+- Why we collect it: To maintain high-quality interactions, train our sales teams, create call transcripts, keep records updated, and improve sales processes. This includes analyzing the content of such calls and online meetings using AI-powered tools to gain better insights into our interactions with our customers and prospects.
+- Legal basis: Your consent (if required) or our legitimate business interests.
+Information collected automatically.
+When you visit our websites, interact with our emails, or otherwise interact with our online content (such as videos or product demos), we automatically collect certain technical and usage information. In some jurisdictions, this information may be considered personal information under applicable data protection laws. In particular, we collect the following personal information from you automatically:
+When you access our websites or content.
+What we collect:
+- Technical Information: This includes your IP address, device type (e.g., iPhone,desktop, PC), unique device identifiers, the type of browser you are using (e.g., Chrome, Internet Explorer), broad geographic location from which you are accessing our site (country or city-level location based on your IP address).
+- Usage Information: We also collect information about how you interact with our websites. This includes:- Which pages you visit and the features you use.
+- The website you were on before landing on ours (the “referring web page”).
+- How you interact with our content (e.g., when you open a marketing email, click on an embedded link, watch a video, or use our chat function).
+- Some of this information is collected using cookies and similar tracking technology. You can find more details, including how to manage your preferences, in our Cookie Notice. We do not collect “sensitive personal information” as the term is defined by California law beyond what is necessary to provide your requested services. Accordingly, we do not provide a mechanism for you to request that we limit our use of sensitive personal information.
+ 
+Why we collect it:
+- Analyze and improve our offerings: We use this information for internal analysis to better understand who our visitors are, where they come from, and what content interests them the most. This helps us improve the quality and relevance of our websites, content, and products.
+- Operate and secure the website: We use this data to run, maintain, and protect our websites, ensure you can access the content you requested, and display information specific to your location. This also includes tracking activity, investigating suspicious use, and enforcing our terms to prevent misuse and fraud.
+- Personalize your experience: We may combine this automatically collected data with other information you give us directly (e.g., when you fill out a contact form or enter your details to download a whitepaper) and use AI-powered tools to analyze this combined information to determine or infer your professional interests. This allows us to personalize our messages, recommend the most relevant solutions for your organization, and make our sales and marketing efforts more efficient.
+Legal basis: Our legitimate business interests.
+Information collected when using our enterprise cloud applications.
+We collect certain information about your use of our enterprise cloud applications. In some jurisdictions, this information may be considered personal information under applicable data protection laws.
+Systems Usage Information
+When you use our enterprise cloud applications (including mobile apps), we automatically log certain information about your use of the systems (“systems usage information”).
+What we collect:
+- System-generated identifiers: such as identifiers (Workday-assigned ID and organization ID), app version, and IP address.
+- Device information, such as operating system, browser type, device make, and device model.
+- Service data, such as information about service tasks and notifications completions.
+- Usage details, such as date and time stamps indicating when you use our products, and details about which of our products you are using.
+Why we collect it:
+- Service provision and operation: To ensure the proper functioning, maintenance, and improvement of our services.
+- Security and fraud prevention: To detect and prevent security incidents and fraudulent activities.
+- Performance monitoring and analytics: To analyze system usage patterns and optimize service performance.
+- Troubleshooting and support: To diagnose and resolve technical issues.
+- Feature enablement: To remotely enable or disable features within the mobile application.
+Legal basis: Our legitimate business interests.
+The systems usage information does not identify you directly, and we do not try to identify you from this systems usage information unless your organization (e.g., your employer) provides us with explicit instructions and the necessary account details to do so. This may occur when your organization requests customer support to resolve a specific issue you are experiencing.
+In-App Surveys.
+From time to time, you might see optional in-app surveys appear in our enterprise cloud applications. These surveys gather your feedback on our enterprise cloud applications, often appearing after you have completed a specific task.
+- What we collect: If you choose to participate, we collect your responses (ratings and free-text comments). This information may be combined with system usage information to better understand your feedback. We do not collect directly identifiable information unless you voluntarily provide it in the free-text comments.
+- Why we collect it: To improve our products and services, understand user needs and preferences, and enhance the overall user experience.
+- Legal basis: Our legitimate business interests.
+Information obtained from other sources.
+We also obtain information about you from third-party sources. We may combine this information with personal information provided by you to supplement and enrich our records. Specifically, we collect personal information from the following other sources:
+From third-party sources.
+Workday may collect business contact information about you from other sources including Workday partners; co-sponsors of events attended by Workday; third-party data providers that sell business contact information, and from publicly accessible websites, such as your company’s website, professional network services, or press releases. These third parties have their own privacy notices that explain how they collect your information, and you can usually find these on their websites.
+- What we collect: Your business contact information such as name, email, telephone number, company name, job level, functional role, business street address, and online identifiers, as well as previous employers and roles.
+- Why we collect it: To maintain up-to-date records, to offer content that is more useful and interesting to you, to better understand our market and identify new business opportunities, to provide you with information about relevant products (including telemarketing calls and marketing emails, in accordance with your marketing preferences).
+- Legal basis: Our legitimate interests or your consent (where required by law).
+From your organization.
+Workday may receive your personal information from your organization so we can provide you with services, such as giving you access to training materials your organization bought, granting you administrative access, or inviting you to participate in our research studies. Additionally, if your organization is a Workday supplier, they may provide us your personal information so that we can contact you about the services your organization supplies to us.
+- What we collect: Your business contact information such as name and email address.
+- Why we collect it: To communicate with us about our products, manage your (or your organization’s) account, and provide the requested services to you or your organization.
+- Legal basis: Our legitimate interests.
+Disclosing your personal information.
+Workday may share or make accessible your personal information to third parties as follows:
+Workday affiliates.
+Workday may share your personal information with other companies within the Workday group where necessary to fulfill a request you have submitted or for customer support, marketing, technical operations, event registration, and account management purposes.
+Service providers.
+Workday may share personal information with third-party service providers or vendors contracted to provide services on our behalf (for example, IT and hosting, data analytics, event services, customer support, call recording, SMS texting, chatbot technology, data enrichment, email fulfillment, and payment services). These service providers may use personal information we provide to them only as instructed by Workday.
+Event sponsors.
+When you participate in webinars, events, and other activities where Workday collaborates with third parties, we may share the personal information such as your contact information and interests in these offerings or services with these approved third parties so they can communicate with you.
+Workday partners.
+Workday may share your personal information with certain partners that offer supplementary services to those provided by Workday, such as partners that resell Workday services, to the extent you consent to such sharing (where required by applicable law) or direct us to intentionally interact with such third parties.
+Your organization.
+Where your organization is a customer or potential customer of Workday, we may disclose your personal information to relevant people within your organization. For example, we may share a list of individuals attending a Workday event, information about Workday training courses you have completed, or inquiries from end users that should be addressed directly by the organization rather than Workday.
+Advertising.
+When you visit our website, we may enable third parties to use cookies and other trackers to show you ads on third-party websites that are more relevant to you. Under some data protection laws, our disclosure of this information to third parties through cookies and other trackers for targeted advertising may be considered a “sale” or “share” of personal information. Please see our Cookie Notice for more information about the types of cookies we use or click “Cookie Preferences” (link located in the footer of our website) to set your preferences and opt-out of the sale or sharing (for targeted advertising) of your data. Workday does not have actual knowledge that it “sells” or “shares” the personal information of individuals under 16 years of age.
+Text messaging.
+If you consent to receive text messages from Workday, no mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All other categories of information disclosed or shared as described in this privacy statement exclude text messaging originator opt-in data and consent; such originator opt-in data and consent information will not be shared with any third parties. To opt out of receiving text messages from Workday at any time, reply STOP to any message you receive from us. Message and data rates may apply. Message frequency varies.
+Other reasons.
+Workday may disclose data if we have a good-faith belief that such action is necessary to (a) conform to legal requirements or comply with legal processes; (b) protect and defend our rights or property; (c) enforce our website terms and conditions; and/or (d) act to protect the interests of our customers, users, or others. If Workday goes through a business transition, such as a merger, acquisition by another company, or sale of all or a portion of our assets, your personal information may be among the assets transferred, provided that we inform the actual or potential buyer (or its agents and advisors) that it must use your personal information only for the purposes disclosed in this Privacy Statement. Workday may also ask for your consent to disclose your information to other unaffiliated third parties that are not described elsewhere in this statement.
+Protecting your personal information.
+We use technical and organizational measures that provide a level of security appropriate to the nature of the personal information and the risks that are presented by processing your personal information. However, the security of information transmitted through the internet can never be guaranteed. You are responsible for maintaining the security of your password or other forms of authentication involved in accessing password-protected or secured resources.
+Transferring your personal information internationally.
+Workday operates as a global business and complies with applicable legal requirements when we need to transfer, store, or process your personal information in a country outside your jurisdiction.
+We take appropriate safeguards to protect your privacy, your fundamental rights and freedoms, and the ability to exercise your rights. For example, if we transfer personal information from the European Economic Area (“EEA”), the United Kingdom (“UK”), or Switzerland to another country such as the United States, we will implement an appropriate data transfer solution such as entering into “standard contractual clauses” approved by the European Commission or competent governmental authority (as applicable) with the data importer.
+If it’s necessary, we implement additional contractual, technical, and organizational measures to ensure that personal information transferred is subject to an essentially equivalent level of protection.
+Workday adheres to the EU-U.S. Data Privacy Framework, the UK Extension to the EU-U.S. Data Privacy Framework, and the Swiss-U.S. Data Privacy Framework (collectively the “DPF”) maintained by the U.S. Department of Commerce. Workday relies on the DPF as a legal basis for transfers of personal information from the EEA, UK, and Switzerland to the United States. For more information, see our Data Privacy Framework Notice.
+Retaining your personal information.
+We keep your personal information for as long as we have a legitimate business need to do so (for example, to provide you with a service you have requested or to comply with applicable legal, tax, or accounting requirements).
+The factors we consider when deciding how long to keep personal information include:
+- The length of time we have an ongoing business relationship with you.
+- The amount, nature, and sensitivity of the personal information we process.
+- Whether we have a legal obligation to keep personal information or if it is necessary to resolve disputes, including the establishment, exercise, or defense of legal claims.
+When we no longer have a legitimate business need to process your personal information, we will either delete or anonymize it. If this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
+Certifications.
+APEC Cross-Border Privacy Rules System.
+Workday privacy practices, described in this Privacy Statement, comply with the APEC Cross-Border Privacy Rules (CBPR) System. The APEC CBPR System provides a framework for organizations to ensure protection of personal information transferred among participating APEC economies.
+Your Privacy Rights
+Depending on where you are located and how you interact with Workday, you may have certain rights over the personal information we hold about you. These may include the right to:
+- Obtain access to your personal information that is being processed by us.
+- Correct inaccurate personal information.
+- Request the deletion of your personal information.
+- Opt out of the sale or sharing of personal information for targeted advertising.
+- Object to the processing of your personal information carried out on the basis of our legitimate interests in the EEA, UK, and Switzerland, and ask us to restrict the processing of your personal information.
+- Request the portability of your personal information in a structured, commonly used, and machine-readable format.
+- Withdraw your consent at any time, if we have collected and processed your personal information with your consent. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect processing of your personal information conducted in reliance on lawful processing grounds other than consent.
+- Opt out of marketing communications sent by Workday, which includes the profiling we conduct to support such marketing.
+Workday does not make decisions based solely on automated processing that produces legal or similarly significant effects as part of the processing activities covered by this Privacy Statement.
+Exercising your privacy rights.
+To exercise your rights with respect to information covered by this Privacy Statement, please submit a request through our online form. Alternatively, you can also contact us using the contact details at the bottom of this Privacy Statement.
+Here’s what you need to know about making a request:
+- We Need to Verify Your Identity: For your security, we must confirm that you are the person the request is about. When you submit your request, you’ll be asked to provide certain information (your name and the email you use with us) so we can verify who you are.
+- Authorized Agents: If you’d like another person or a third party to submit a request on your behalf, you must give them written permission or a power of attorney.
+- Our Commitment to You:- We will acknowledge your request as soon as we receive it.
+- We will provide a full response within the time frame required by law. If we need more time to process your request, we will let you know.
+- If we are unable to fulfill your request, we will explain why.
+ 
+You may opt-out of the sale or sharing of your personal information for targeted advertising by clicking the “Your Privacy Choices” or the “Cookie Preferences” link in the footer of our website and opting out of the Functional and Advertising Cookies, or by implementing the Global Privacy Control (GPC). For instructions on how to download and use GPC, please visit https://globalprivacycontrol.org. See our Cookie Notice for more information.
+Workday will not discriminate against you for exercising your rights. If your personal information has been submitted to us by or on behalf of a Workday customer and you wish to exercise any rights you may have under applicable data protection laws, please contact the applicable customer directly.
+Lodging a complaint.
+You may lodge a complaint with a data protection authority such as the supervisory authority of your usual place of residence. A full list of EEA data protection authorities is available here. You can also lodge a complaint with the Irish Data Protection Commission, which is the competent supervisory authority for Workday Limited. Alternatively, you may request the details of your competent data protection authority by using the contact details at the bottom of this Privacy Statement.
+Who is responsible for your personal information?
+Responsible Workday company
+This section explains which Workday company is in charge of your personal information.
+If you are in the EEA, the UK, or Switzerland: The controller for your personal information is Workday Limited, Kings Building, 152-155 Church Street, Dublin 7, D07 A0TN, Ireland. Workday (UK) Limited, 7th floor, 1 Finsbury Avenue, London, EC2M 2PF, United Kingdom is its representative in the UK and Workday Switzerland GmbH, Utoquai 55, 8008 Zurich, Switzerland is its representative in Switzerland.
+For all other individuals: The controller for your personal information is Workday, Inc., located in the United States.
+How to contact us
+If you have any questions about this Privacy Statement, wish to exercise your rights, or contact our Data Protection Officer, please submit your request through our online form.
+You may also write to us at one of the addresses below:
+Workday, Inc.
+ Attn.: Privacy & Data Protection Team
+ 6110 Stoneridge Mall Road
+ Pleasanton, CA 94588
+ USA
+Workday Limited
+ Attn.: Privacy & Data Protection Team
+ Kings Building
+ 152-155 Church Street
+ Dublin 7
+ D07 A0TN
+ Ireland
+To find the Workday affiliate in your country or region, see the list of global office locations.
+Important note for technical support:
+For technical support questions about Workday enterprise cloud applications, please contact your organization’s HR or IT department. We cannot provide direct technical support to individual users.
+If you have an unresolved privacy or data use concern that we have not addressed satisfactorily or you wish to appeal, please contact our U.S.-based third-party dispute resolution provider (free of charge) at https://feedback-form.truste.com/watchdog/request.
+Changes to this Privacy Statement.
+We may update this Privacy Statement from time to time. When we make changes, we will post the updated version, and the links to the Privacy Statement will show that it has been changed. If we plan to make any major changes, we will notify you on this page before those changes take effect. We encourage you to review this Privacy Statement regularly to stay informed about our privacy practices.

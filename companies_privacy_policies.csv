@@ -1,0 +1,151 @@
+company name,url,company category
+Adyen,https://www.adyen.com/policies-and-disclaimer/privacy-policy,Finance
+Affirm,https://www.affirm.com/privacy,Finance
+American Express,https://www.americanexpress.com/us/privacy-center.html,Finance
+BNP Paribas,https://group.bnpparibas/en/privacy-policy,Finance
+Bank of America,https://www.bankofamerica.com/security-center/privacy-overview/,Finance
+Barclays,https://www.barclays.co.uk/important-information/privacy-policy/,Finance
+Binance,https://www.binance.com/en/privacy,Finance
+BlackRock,https://www.blackrock.com/corporate/privacy-policy,Finance
+Capital One,https://www.capitalone.com/privacy/,Finance
+Charles Schwab,https://www.schwab.com/privacy,Finance
+Chime,https://www.chime.com/privacy-policy/,Finance
+Citigroup,https://www.citigroup.com/citi/privacy.html,Finance
+Coinbase,https://www.coinbase.com/legal/privacy,Finance
+Credit Suisse,,Finance
+Deutsche Bank,https://www.db.com/privacy-statement,Finance
+Discover,https://www.discover.com/privacy-statement/,Finance
+Equifax,https://www.equifax.com/privacy/,Finance
+Experian,https://www.experian.com/privacy/,Finance
+Fidelity Investments,https://www.fidelity.com/privacy-policy,Finance
+Goldman Sachs,https://www.goldmansachs.com/privacy-and-cookies/,Finance
+HSBC,https://www.hsbc.com/privacy-statement,Finance
+ING Group,https://www.ing.com/Privacy-statement.htm,Finance
+Intuit,https://www.intuit.com/privacy/,Finance
+JPMorgan Chase,https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy,Finance
+Klarna,https://www.klarna.com/us/privacy/,Finance
+Mastercard,https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy.html,Finance
+MoneyGram,https://www.moneygram.com/mgo/us/en/privacy-policy/,Finance
+Morgan Stanley,https://www.morganstanley.com/privacy-pledge,Finance
+PayPal,https://www.paypal.com/us/legalhub/privacy-full,Finance
+Plaid,https://plaid.com/legal/privacy/,Finance
+RBC,https://www.rbc.com/privacysecurity/ca/,Finance
+Revolut,https://www.revolut.com/legal/privacy-policy/,Finance
+Robinhood,https://robinhood.com/us/en/support/articles/robinhood-privacy-policy/,Finance
+Santander,https://www.santander.com/en/privacy-policy,Finance
+Scotiabank,https://www.scotiabank.com/ca/en/about/contact-us/privacy.html,Finance
+SoFi,https://www.sofi.com/privacy-policy/,Finance
+Square (Block),https://squareup.com/us/en/legal/general/privacy,Finance
+Stripe,https://stripe.com/privacy,Finance
+TD Bank,https://www.td.com/to-our-customers/privacy-and-security/privacy.jsp,Finance
+UBS,https://www.ubs.com/global/en/legal/privacy.html,Finance
+Vanguard,https://corporate.vanguard.com/content/corporatesite/us/en/corp/privacy-policy.html,Finance
+Visa,https://usa.visa.com/legal/privacy-policy.html,Finance
+Wells Fargo,https://www.wellsfargo.com/privacy-security/,Finance
+Western Union,https://www.westernunion.com/us/en/privacy-statement.html,Finance
+Wise,https://wise.com/legal/privacy-policy,Finance
+Airtable,https://www.airtable.com/privacy,SaaS
+Asana,https://asana.com/terms#privacy-policy,SaaS
+Atlassian,https://www.atlassian.com/legal/privacy-policy,SaaS
+Auth0,https://auth0.com/legal/privacy,SaaS
+Bitbucket,https://www.atlassian.com/legal/privacy-policy,SaaS
+Box,https://www.box.com/legal/privacy-policy,SaaS
+Canva,https://about.canva.com/privacy-policy/,SaaS
+ClickUp,https://clickup.com/privacy,SaaS
+Confluence,https://www.atlassian.com/legal/privacy-policy,SaaS
+Datadog,https://www.datadoghq.com/legal/privacy/,SaaS
+DocuSign,https://www.docusign.com/privacy,SaaS
+Dropbox,https://www.dropbox.com/privacy,SaaS
+Figma,https://www.figma.com/summary-of-privacy-policy/,SaaS
+Freshworks,https://www.freshworks.com/privacy/,SaaS
+Gartner,https://www.gartner.com/en/about/policies/privacy,SaaS
+GitHub,https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement,SaaS
+GitLab,https://about.gitlab.com/handbook/legal/privacy/,SaaS
+HashiCorp,https://www.hashicorp.com/privacy,SaaS
+HubSpot,https://legal.hubspot.com/privacy-policy,SaaS
+InVision,,SaaS
+Intercom,https://www.intercom.com/legal/privacy,SaaS
+Jira,https://www.atlassian.com/legal/privacy-policy,SaaS
+Mailchimp,https://www.intuit.com/privacy/,SaaS
+Monday.com,https://monday.com/l/legal/privacy-policy/,SaaS
+New Relic,https://newrelic.com/termsandconditions/privacy,SaaS
+Notion,https://www.notion.so/about/privacy-policy,SaaS
+Okta,https://www.okta.com/privacy-policy/,SaaS
+PagerDuty,https://www.pagerduty.com/privacy-policy/,SaaS
+Procore,https://www.procore.com/legal/privacy,SaaS
+Qualtrics,https://www.qualtrics.com/privacy-statement/,SaaS
+Salesforce,https://www.salesforce.com/company/privacy/,SaaS
+ServiceNow,https://www.servicenow.com/privacy-statement.html,SaaS
+Shopify,https://www.shopify.com/legal/privacy,SaaS
+Slack,https://slack.com/trust/privacy/privacy-policy,SaaS
+Snowflake,https://www.snowflake.com/privacy-policy/,SaaS
+Splunk,https://www.splunk.com/en_us/legal/privacy-policy.html,SaaS
+Squarespace,https://www.squarespace.com/privacy,SaaS
+SurveyMonkey,https://www.surveymonkey.com/mp/legal/privacy/,SaaS
+Trello,https://trello.com/privacy,SaaS
+Twilio,https://www.twilio.com/legal/privacy,SaaS
+Veeva Systems,https://www.veeva.com/privacy/,SaaS
+Wix,https://www.wix.com/about/privacy,SaaS
+Workday,https://www.workday.com/en-us/privacy.html,SaaS
+Zendesk,https://www.zendesk.com/company/agreements-and-terms/privacy-policy/,SaaS
+Zoom,https://explore.zoom.us/en/privacy/,SaaS
+ZoomInfo,https://www.zoominfo.com/about-zoominfo/privacy-center,SaaS
+BeReal,https://bereal.com/privacy,Social
+Bumble,https://bumble.com/privacy,Social
+Clubhouse,https://www.clubhouse.com/privacy,Social
+DailyMotion,https://www.dailymotion.com/legal/privacy,Social
+Discord,https://discord.com/privacy,Social
+Fever,https://feverup.com/en/privacy,Social
+Flickr,https://www.flickr.com/help/privacy,Social
+Foursquare,https://foursquare.com/legal/privacy,Social
+Goodreads,https://www.goodreads.com/about/privacy,Social
+Grindr,https://www.grindr.com/privacy-policy/,Social
+Hinge,https://hinge.co/privacy,Social
+Instagram,https://privacycenter.instagram.com/policy/,Social
+KakaoTalk,https://www.kakaocorp.com/page/privacyPolicy,Social
+Line,https://line.me/en/terms/policy/,Social
+LinkedIn,https://www.linkedin.com/legal/privacy-policy,Social
+Mastodon,https://joinmastodon.org/privacy-policy,Social
+Medium,https://policy.medium.com/medium-privacy-policy-f03bf92035c9,Social
+Meetup,https://www.meetup.com/privacy-policy/,Social
+Meta (Facebook),https://www.facebook.com/privacy/policy/,Social
+Nextdoor,https://nextdoor.com/privacy_policy/,Social
+Patreon,https://www.patreon.com/policy/privacy,Social
+Pinterest,https://policy.pinterest.com/en/privacy-policy,Social
+Quora,https://www.quora.com/about/privacy,Social
+Reddit,https://www.reddit.com/policies/privacy-policy,Social
+Signal,https://signal.org/legal/,Social
+Snapchat,https://values.snap.com/privacy/privacy-policy,Social
+SoundCloud,https://soundcloud.com/pages/privacy,Social
+Strava,https://www.strava.com/legal/privacy,Social
+Substack,https://substack.com/privacy,Social
+Telegram,https://telegram.org/privacy,Social
+TikTok,https://www.tiktok.com/legal/page/row/privacy-policy/en,Social
+Tinder,https://policies.tinder.com/privacy,Social
+Tumblr,https://www.tumblr.com/privacy,Social
+Twitch,https://www.twitch.tv/p/en-us/legal/privacy-notice/,Social
+Vimeo,https://vimeo.com/privacy,Social
+Wattpad,https://policies.wattpad.com/privacy/,Social
+WeChat,https://www.wechat.com/en/privacy_policy.html,Social
+WhatsApp,https://www.whatsapp.com/legal/privacy-policy,Social
+X (Twitter),https://x.com/en/privacy,Social
+YouTube,https://policies.google.com/privacy,Social
+AMD,https://www.amd.com/en/corporate/privacy,Tech
+Acer,https://www.acer.com/ac/en/US/content/privacy,Tech
+Adobe,https://www.adobe.com/privacy/policy.html,Tech
+Airbnb,https://www.airbnb.com/help/article/2855,Tech
+Amazon,https://www.amazon.com/privacy,Tech
+Apple,https://www.apple.com/legal/privacy/,Tech
+Asus,https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy,Tech
+Bose,https://www.bose.com/en_us/legal/privacy_policy.html,Tech
+Broadcom,https://www.broadcom.com/company/legal/privacy-policy,Tech
+Cisco,https://www.cisco.com/c/en/us/about/legal/privacy-full.html,Tech
+Cloudflare,https://www.cloudflare.com/privacypolicy/,Tech
+Corsair,https://www.corsair.com/us/en/privacy-policy,Tech
+Dell,https://www.dell.com/learn/us/en/uscorp1/policies-privacy,Tech
+DigitalOcean,https://www.digitalocean.com/legal/privacy-policy,Tech
+Fastly,https://www.fastly.com/privacy,Tech
+Fitbit,https://www.fitbit.com/global/us/legal/privacy-policy,Tech
+Garmin,https://www.garmin.com/en-US/privacy/global/,Tech
+GoPro,https://gopro.com/en/us/legal/privacy-policy,Tech
+Google,https://policies.google.com/privacy,Tech
