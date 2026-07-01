@@ -188,13 +188,46 @@ Python Libraries:
   - csv, re, os, time, sys — Python standard library
 
 ================================================================================
-NEXT STEPS (POTENTIAL)
+PHASE 2: FLASK BACKEND (COMPLETED)
 ================================================================================
 
+File: website/app.py
+Dependencies: website/requirements.txt
+
+Model Artifacts Used (from Phase 1 / save_model.py):
+  - website/model/model.pkl          (XGBoost classifier)
+  - website/model/scaler.pkl         (StandardScaler)
+  - website/model/label_encoder.pkl  (LabelEncoder)
+  - website/model/metadata.pkl       (model metadata)
+
+API Endpoints:
+  GET  /api/health                  Health check + system status
+  POST /api/analyze/text            Analyze pasted privacy policy text
+  POST /api/analyze/url             Analyze policy from URL (trafilatura)
+  GET  /api/dataset/stats           Summary statistics (81 companies)
+  GET  /api/dataset/companies       Company list (sortable, filterable)
+  GET  /api/dataset/company/<name>  Single company full detail
+
+Features:
+  - Loads trained XGBoost model at startup
+  - Extracts same 8 raw features used in training pipeline
+  - Computes 5 normalized features with min-max normalization
+  - Calculates formula-based obfuscation score (0-100)
+  - Returns ML prediction with confidence & class probabilities
+  - Includes human evaluation labels where available
+  - CORS enabled for frontend integration
+  - URL analysis via trafilatura (optional dependency)
+
+Start Command:
+  cd website && python app.py
+  (Server runs on http://localhost:5000)
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+  - Build frontend website (user will provide prompt)
   - Retry failed companies with alternative extraction methods
   - Add more NLP features (sentiment, passive voice %, vague language count)
-  - Build obfuscation scoring model using computed features
-  - Visualize feature distributions across industries
-  - Compare readability across Finance vs SaaS vs Social vs Tech
 
 ================================================================================
