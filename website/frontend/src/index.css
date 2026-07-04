@@ -1,0 +1,368 @@
+/* =====================================================
+   Cognitive Legal — Design System
+   Ported from Stitch "Cognitive Legal" theme
+   ===================================================== */
+
+/* ---- CSS Custom Properties (Design Tokens) ---- */
+:root {
+  /* Primary */
+  --primary: #0050cb;
+  --primary-container: #0066ff;
+  --on-primary: #ffffff;
+  --on-primary-container: #f8f7ff;
+  --primary-fixed: #dae1ff;
+  --primary-fixed-dim: #b3c5ff;
+  --inverse-primary: #b3c5ff;
+
+  /* Secondary */
+  --secondary: #555f6c;
+  --secondary-container: #d9e3f2;
+  --on-secondary: #ffffff;
+  --secondary-fixed: #d9e3f2;
+
+  /* Tertiary */
+  --tertiary: #a33200;
+  --tertiary-container: #cc4204;
+  --on-tertiary: #ffffff;
+  --tertiary-fixed: #ffdbd0;
+  --tertiary-fixed-dim: #ffb59d;
+
+  /* Error */
+  --error: #ba1a1a;
+  --error-container: #ffdad6;
+  --on-error: #ffffff;
+  --on-error-container: #93000a;
+
+  /* Surface */
+  --surface: #f8f9fa;
+  --surface-dim: #d9dadb;
+  --surface-bright: #f8f9fa;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f3f4f5;
+  --surface-container: #edeeef;
+  --surface-container-high: #e7e8e9;
+  --surface-container-highest: #e1e3e4;
+  --surface-card: #FFFFFF;
+  --surface-variant: #e1e3e4;
+  --surface-tint: #0054d6;
+  --on-surface: #191c1d;
+  --on-surface-variant: #424656;
+  --inverse-surface: #2e3132;
+  --inverse-on-surface: #f0f1f2;
+
+  /* Outline */
+  --outline: #727687;
+  --outline-variant: #c2c6d8;
+
+  /* Semantic */
+  --background: #f8f9fa;
+  --on-background: #191c1d;
+  --border-subtle: #E5E7EB;
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+  --accent-glow: rgba(0, 102, 255, 0.05);
+
+  /* Spacing */
+  --margin-mobile: 16px;
+  --margin-desktop: 64px;
+  --gutter: 24px;
+  --max-width: 1280px;
+  --base: 4px;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-default: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+}
+
+/* ---- Reset & Base ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--background);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ---- Typography ---- */
+.font-display { font-family: 'Geist', sans-serif; }
+.font-headline { font-family: 'Geist', sans-serif; }
+.font-body { font-family: 'Inter', sans-serif; }
+.font-mono { font-family: 'Geist', monospace; }
+.font-label { font-family: 'Geist', sans-serif; }
+
+.text-display {
+  font-family: 'Geist', sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.text-headline-lg {
+  font-family: 'Geist', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.text-headline-md {
+  font-family: 'Geist', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.text-body-lg {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.text-body-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.text-label-md {
+  font-family: 'Geist', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+.text-mono {
+  font-family: 'Geist', monospace;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* ---- Glass Card ---- */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 6px -1px rgba(0, 102, 255, 0.05),
+              0 2px 4px -1px rgba(0, 102, 255, 0.025);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* ---- Animations ---- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes float-fast {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-delay {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes scanline {
+  0% { top: 0%; opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+@keyframes gradient-move {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+.animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
+.animate-float-fast { animation: float-fast 4s ease-in-out infinite; }
+.animate-float-delay { animation: float-delay 5s ease-in-out infinite 1s; }
+
+.progress-bar-animated {
+  background: linear-gradient(90deg, var(--primary), var(--primary-fixed-dim), var(--primary));
+  background-size: 200% 100%;
+  animation: gradient-move 2s linear infinite;
+}
+
+/* ---- Dot Pattern Background ---- */
+.bg-pattern {
+  background-image: radial-gradient(circle at 2px 2px, rgba(0, 80, 203, 0.1) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* ---- Scan Line ---- */
+.scan-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--primary), transparent);
+  box-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary);
+  animation: scanline 4s linear infinite;
+  z-index: 10;
+}
+
+/* ---- Text Lines for Hero ---- */
+.text-line {
+  height: 12px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: #e5e7eb;
+  transition: all 0.3s ease;
+  font-family: 'Geist', monospace;
+  font-size: 8px;
+  line-height: 12px;
+  overflow: hidden;
+  color: transparent;
+  padding: 0 4px;
+}
+.text-line.active {
+  background-color: var(--primary-fixed);
+  color: #001849;
+}
+
+/* ---- Risk Badges ---- */
+.badge-easy {
+  background-color: #e6f4ea;
+  color: #137333;
+  border: 1px solid #ceead6;
+}
+.badge-moderate {
+  background-color: #fef7e0;
+  color: #b06000;
+  border: 1px solid #fce8b2;
+}
+.badge-obfuscated {
+  background-color: var(--error-container);
+  color: var(--on-error-container);
+  border: 1px solid #f8b4b4;
+}
+
+/* ---- Buttons ---- */
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+  padding: 12px 24px;
+  border-radius: var(--radius-default);
+  font-family: 'Geist', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.btn-primary:hover {
+  background-color: var(--primary-container);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: var(--surface);
+  color: var(--text-primary);
+  padding: 12px 24px;
+  border-radius: var(--radius-default);
+  font-family: 'Geist', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border: 1px solid var(--border-subtle);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s;
+}
+.btn-secondary:hover {
+  background-color: var(--surface-container-low);
+}
+
+/* ---- Card ---- */
+.card {
+  background-color: var(--surface-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 102, 255, 0.02);
+  transition: all 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 30px rgba(0, 102, 255, 0.08);
+}
+
+/* ---- Tab Content ---- */
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* ---- Custom Scrollbar ---- */
+.custom-scrollbar::-webkit-scrollbar { width: 6px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background-color: #E5E7EB; border-radius: 10px; }
+
+/* ---- Highlight Colors for Policy Viewer ---- */
+.hl-green { background-color: rgba(34, 197, 94, 0.15); border-bottom: 2px solid rgba(34, 197, 94, 0.5); }
+.hl-yellow { background-color: rgba(234, 179, 8, 0.2); border-bottom: 2px solid rgba(234, 179, 8, 0.6); }
+.hl-red { background-color: rgba(239, 68, 68, 0.15); border-bottom: 2px solid rgba(239, 68, 68, 0.5); }
+
+/* ---- Layout Utilities ---- */
+.container-app {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--margin-mobile);
+}
+@media (min-width: 768px) {
+  .container-app {
+    padding: 0 var(--margin-desktop);
+  }
+}
+
+/* ---- Material Icons inline ---- */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* ---- Link resets ---- */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+/* ---- Scrollbar for whole page ---- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--outline-variant); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--outline); }
