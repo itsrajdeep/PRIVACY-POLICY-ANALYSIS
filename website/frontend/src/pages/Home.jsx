@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { getDatasetStats } from '../api/client'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -84,8 +85,25 @@ function OrbitCard({ top, right, bottom, left, width, animClass, children }) {
   )
 }
 
+function AnimatedFeatureBar({ pct, color, delay = 0 }) {
+  const [w, setW] = useState(0)
+  useEffect(() => { const t = setTimeout(() => setW(pct), delay); return () => clearTimeout(t) }, [pct, delay])
+  return (
+    <div style={{ width: '100%', height: 6, background: 'var(--surface-container-high)', borderRadius: 99, overflow: 'hidden' }}>
+      <div style={{ width: `${w}%`, height: '100%', background: color, borderRadius: 99, transition: 'width 1.2s cubic-bezier(0.16,1,0.3,1)' }} />
+    </div>
+  )
+}
+
 export default function Home() {
   const sceneRef = useRef(null)
+  const [liveStats, setLiveStats] = useState(null)
+
+  useEffect(() => {
+    getDatasetStats()
+      .then(r => setLiveStats(r.data))
+      .catch(() => {})
+  }, [])
 
   useEffect(() => {
     const scene = sceneRef.current
@@ -260,59 +278,122 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Under the Hood */}
+        {/* Under the Hood — real live data */}
         <section style={{ padding: '96px 0' }}>
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} style={{ textAlign: 'center', marginBottom: 64 }}>
             <h2 className="text-headline-lg" style={{ marginBottom: 16 }}>Under the Hood</h2>
-            <p className="text-body-md" style={{ color: 'var(--text-secondary)', maxWidth: 560, margin: '0 auto' }}>Visualizing the data flow and model architecture.</p>
+            <p className="text-body-md" style={{ color: 'var(--text-secondary)', maxWidth: 560, margin: '0 auto' }}>
+              Real data from our trained XGBoost model and the 81-company dataset.
+            </p>
           </motion.div>
-          <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr', gridTemplateRows: '1fr 1fr', gap: 24, height: 600 }}>
-            {/* Pipeline Card */}
-            <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} className="glass-card" style={{ gridRow: '1 / 3', padding: 24, borderRadius: 16, border: '1px solid var(--border-subtle)', position: 'relative', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-              <div style={{
-                position: 'absolute', inset: 0, opacity: 0.1,
-                backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCqzC_xfb1OIhTC2EaWXAt1mMiWNOZaBdv7tE8PxyDbu2TEPz-hBkVMovdrWnwYbkv-Q9RWEreEJeG3b-1MybFTAUXYUOqeIWpiP7-OsK1VXMo5WHUqB3CUPCkksotpP9M9Um2UoEhlfeaiXMHbc4KWQg0tEcO4MgonxxFZQnIMKEte0NS5BeRIuh6Mr4pBefGzCvI4lfL8ygmjq3jLAjdxlr3quZGAJWoT5u4pvhve1k19sQxCHiTce_hLqeKBE5gvyneCXx8B58om')",
-                backgroundSize: 'cover', backgroundPosition: 'center',
-              }} />
-              <div style={{ position: 'relative', zIndex: 10, flex: 1, display: 'flex', flexDirection: 'column' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 32 }}>
-                  <span className="font-mono" style={{ fontSize: 13, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Model Pipeline</span>
-                  <span style={{ background: 'var(--primary-fixed)', color: 'var(--primary)', padding: '4px 12px', borderRadius: 'var(--radius-full)', fontSize: 12, fontWeight: 500 }}>Active</span>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 24 }}>
+
+            {/* LEFT — Actual XGBoost pipeline */}
+            <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
+              className="glass-card" style={{ padding: 32, borderRadius: 16, border: '1px solid var(--border-subtle)', position: 'relative', overflow: 'hidden' }}
+            >
+              <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(0,80,203,0.05) 1px, transparent 0)', backgroundSize: '20px 20px' }} />
+              <div style={{ position: 'relative', zIndex: 1 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 32 }}>
+                  <span className="font-mono" style={{ fontSize: 12, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>XGBoost Classification Pipeline</span>
+                  <span style={{ background: 'rgba(34,197,94,0.1)', color: '#16a34a', border: '1px solid rgba(34,197,94,0.3)', padding: '3px 10px', borderRadius: 99, fontSize: 11, fontWeight: 600, fontFamily: 'Geist,sans-serif' }}>● Live</span>
                 </div>
-                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 24 }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                   {[
-                    { label: 'Raw Policy', ml: 0, color: 'var(--primary)', bg: '#fff' },
-                    { label: 'Tokenization', ml: 48, color: 'var(--tertiary)', bg: '#fff' },
-                    { label: 'Transformer Model', ml: 96, color: '#fff', bg: 'var(--primary)' },
-                    { label: 'Risk Scoring', ml: 48, color: 'var(--secondary)', bg: '#fff', noLine: true },
-                  ].map(({ label, ml, color, bg, noLine }) => (
-                    <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 16, marginLeft: ml }}>
-                      <div style={{
-                        minWidth: label === 'Transformer Model' ? 192 : label === 'Tokenization' || label === 'Risk Scoring' ? 160 : 128,
-                        height: 48, background: bg, border: bg === '#fff' ? '1px solid var(--border-subtle)' : 'none',
-                        borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        fontFamily: "'Geist', monospace", fontSize: 13, color,
-                        boxShadow: bg !== '#fff' ? '0 4px 12px rgba(0,80,203,0.2)' : '0 1px 3px rgba(0,0,0,0.05)',
-                      }}>
-                        {label}
+                    { icon: 'description',   label: 'Raw Policy Text',      sub: 'PDF / URL / paste',         color: '#6366f1',          step: '1' },
+                    { icon: 'cleaning_services', label: 'Text Preprocessing', sub: 'Sentence split, lowercase', color: 'var(--secondary)', step: '2' },
+                    { icon: 'analytics',     label: '13 NLP Features',       sub: 'Flesch RE, legal terms, sentence length…', color: 'var(--tertiary)', step: '3' },
+                    { icon: 'tune',          label: 'Min-Max Normalization', sub: 'Scaled to dataset min/max', color: '#8b5cf6',          step: '4' },
+                    { icon: 'model_training', label: 'XGBoost Classifier',   sub: 'n=100 trees, max_depth=4',  color: 'var(--primary)',   step: '5', highlight: true },
+                    { icon: 'verified',      label: 'Risk Score + Label',    sub: 'Easy / Moderate / Obfuscated + confidence', color: '#059669', step: '6' },
+                  ].map(({ icon, label, sub, color, step, highlight }, i, arr) => (
+                    <div key={label}>
+                      <div style={{ display: 'flex', gap: 14, alignItems: 'flex-start', padding: '14px 0' }}>
+                        {/* Step indicator + connector */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 0, minWidth: 32 }}>
+                          <div style={{
+                            width: 32, height: 32, borderRadius: 8,
+                            background: highlight ? color : `${color}18`,
+                            border: `1px solid ${color}40`,
+                            display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
+                          }}>
+                            <span className="material-symbols-outlined" style={{ fontSize: 16, color: highlight ? '#fff' : color }}>{icon}</span>
+                          </div>
+                          {i < arr.length - 1 && (
+                            <div style={{ width: 1, height: 14, background: 'var(--border-subtle)', marginTop: 2 }} />
+                          )}
+                        </div>
+                        {/* Text */}
+                        <div style={{ paddingTop: 4 }}>
+                          <div style={{ fontSize: 13, fontWeight: highlight ? 700 : 500, color: highlight ? color : 'var(--text-primary)', fontFamily: 'Geist,sans-serif', marginBottom: 2 }}>
+                            {label}
+                          </div>
+                          <div style={{ fontSize: 12, color: 'var(--text-secondary)' }}>{sub}</div>
+                        </div>
                       </div>
-                      {!noLine && <div style={{ flex: 1, height: 1, background: 'var(--border-subtle)' }} />}
                     </div>
                   ))}
                 </div>
               </div>
             </motion.div>
-            {/* Stats */}
-            {[
-              { icon: 'speed', value: '1.2s', desc: 'Average processing time per document.', color: 'var(--primary)' },
-              { icon: 'schema', value: '24', desc: 'Pre-trained clause detection models.', color: 'var(--tertiary)' },
-            ].map(({ icon, value, desc, color }, i) => (
-              <motion.div key={icon} variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 + i * 0.1 }} className="glass-card" style={{ padding: 24, borderRadius: 16, border: '1px solid var(--border-subtle)', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <span className="material-symbols-outlined" style={{ fontSize: 32, color, marginBottom: 16 }}>{icon}</span>
-                <span className="text-headline-lg">{value}</span>
-                <span className="text-body-md" style={{ color: 'var(--text-secondary)' }}>{desc}</span>
+
+            {/* RIGHT — Live feature weights + dataset stats */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+
+              {/* Feature weight bars */}
+              <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.1 }}
+                className="glass-card" style={{ padding: 28, borderRadius: 16, border: '1px solid var(--border-subtle)', flex: 1 }}
+              >
+                <div style={{ marginBottom: 20 }}>
+                  <span className="font-mono" style={{ fontSize: 12, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>Obfuscation Score Weights</span>
+                  <p style={{ fontSize: 12, color: 'var(--text-secondary)', marginTop: 4 }}>How each feature contributes to the final risk score</p>
+                </div>
+                {[
+                  { label: 'Flesch Reading Ease', pct: 35, color: 'var(--primary)' },
+                  { label: 'Avg Sentence Length', pct: 25, color: 'var(--tertiary)' },
+                  { label: 'Legal Term Density',  pct: 20, color: '#8b5cf6' },
+                  { label: 'Word Count',          pct: 10, color: 'var(--secondary)' },
+                  { label: 'Unique Word Ratio',   pct: 10, color: '#059669' },
+                ].map(({ label, pct, color }, i) => (
+                  <div key={label} style={{ marginBottom: 14 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 5 }}>
+                      <span style={{ fontSize: 13, color: 'var(--text-secondary)' }}>{label}</span>
+                      <span className="font-mono" style={{ fontSize: 12, fontWeight: 700, color }}>{pct}%</span>
+                    </div>
+                    <AnimatedFeatureBar pct={pct} color={color} delay={i * 120 + 600} />
+                  </div>
+                ))}
               </motion.div>
-            ))}
+
+              {/* Live dataset stats from API */}
+              <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 }}
+                className="glass-card" style={{ padding: 28, borderRadius: 16, border: '1px solid var(--border-subtle)' }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+                  <span className="font-mono" style={{ fontSize: 12, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>Live Dataset Snapshot</span>
+                  {liveStats
+                    ? <span style={{ fontSize: 10, color: '#16a34a', fontFamily: 'Geist,sans-serif', fontWeight: 600 }}>● Connected</span>
+                    : <span style={{ fontSize: 10, color: 'var(--outline)', fontFamily: 'Geist,sans-serif' }}>○ Loading…</span>
+                  }
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
+                  {[
+                    { label: 'Total Companies', value: liveStats?.total_companies ?? '—', color: 'var(--primary)' },
+                    { label: 'Features Used', value: `${liveStats?.model_info?.features_used ?? 13}`, color: 'var(--tertiary)' },
+                    { label: 'Mean Obfus. Score', value: liveStats ? `${liveStats.obfuscation_score.mean}/100` : '—', color: '#8b5cf6' },
+                    { label: 'CV F1 (weighted)', value: liveStats ? `${(liveStats.model_info.cv_f1_weighted * 100).toFixed(1)}%` : '—', color: '#059669' },
+                    { label: 'Easy Policies', value: liveStats?.label_distribution?.Easy ?? '—', color: '#22c55e' },
+                    { label: 'Obfuscated', value: liveStats?.label_distribution?.Obfuscated ?? '—', color: '#ef4444' },
+                  ].map(({ label, value, color }) => (
+                    <div key={label} style={{ background: 'var(--surface-container-low)', padding: '10px 14px', borderRadius: 8 }}>
+                      <div style={{ fontSize: 10, color: 'var(--text-secondary)', fontFamily: 'Geist,sans-serif', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 3 }}>{label}</div>
+                      <div className="font-mono" style={{ fontSize: 16, fontWeight: 700, color }}>{value}</div>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            </div>
           </div>
         </section>
 
@@ -351,6 +432,106 @@ export default function Home() {
               </div>
             </motion.div>
           </div>
+        </section>
+
+        {/* Testimonials / Social Proof */}
+        <section style={{ padding: '96px 0', borderTop: '1px solid var(--border-subtle)' }}>
+          <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} style={{ textAlign: 'center', marginBottom: 64 }}>
+            <h2 className="text-headline-lg" style={{ marginBottom: 16 }}>Companies We've Analyzed</h2>
+            <p className="text-body-md" style={{ color: 'var(--text-secondary)', maxWidth: 560, margin: '0 auto' }}>
+              Our dataset spans 81 global companies across Technology, Finance, Healthcare, Retail, and Telecoms.
+            </p>
+          </motion.div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 12 }}>
+            {[
+              { name: 'Google', label: 'Moderate' },
+              { name: 'Apple', label: 'Easy' },
+              { name: 'Meta', label: 'Obfuscated' },
+              { name: 'Microsoft', label: 'Easy' },
+              { name: 'Amazon', label: 'Moderate' },
+              { name: 'Adobe', label: 'Obfuscated' },
+              { name: 'Netflix', label: 'Easy' },
+              { name: 'Spotify', label: 'Moderate' },
+              { name: 'Twitter', label: 'Moderate' },
+              { name: 'LinkedIn', label: 'Obfuscated' },
+              { name: 'Uber', label: 'Moderate' },
+              { name: 'Airbnb', label: 'Easy' },
+            ].map(({ name, label }, i) => {
+              const color = label === 'Obfuscated' ? '#ef4444' : label === 'Moderate' ? '#eab308' : '#22c55e'
+              return (
+                <motion.div
+                  key={name}
+                  variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
+                  transition={{ delay: i * 0.04 }}
+                  className="glass-card"
+                  style={{
+                    padding: '12px 20px', borderRadius: 10,
+                    display: 'flex', alignItems: 'center', gap: 10,
+                    cursor: 'default',
+                  }}
+                >
+                  <div style={{ width: 28, height: 28, borderRadius: 6, background: `${color}18`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 700, color, fontFamily: 'Geist,sans-serif' }}>
+                    {name[0]}
+                  </div>
+                  <span className="text-label-md">{name}</span>
+                  <span style={{ width: 6, height: 6, borderRadius: '50%', background: color, opacity: 0.8 }} />
+                </motion.div>
+              )
+            })}
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section style={{ padding: '80px 0 96px' }}>
+          <motion.div
+            variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}
+            style={{
+              background: 'linear-gradient(135deg, var(--primary) 0%, #3b5bdb 50%, #6366f1 100%)',
+              borderRadius: 24, padding: '64px 48px',
+              textAlign: 'center', position: 'relative', overflow: 'hidden',
+            }}
+          >
+            {/* Background decoration */}
+            <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.06) 1px, transparent 0)', backgroundSize: '28px 28px' }} />
+            <div style={{ position: 'absolute', top: '-30%', right: '-10%', width: '40%', height: '120%', borderRadius: '50%', background: 'rgba(255,255,255,0.04)', filter: 'blur(60px)' }} />
+
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              <span className="font-mono" style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.12em', display: 'block', marginBottom: 20 }}>
+                Start Analyzing Today — It's Free
+              </span>
+              <h2 style={{ fontFamily: 'Geist,sans-serif', fontSize: 42, fontWeight: 700, color: '#fff', lineHeight: 1.2, marginBottom: 20, letterSpacing: '-0.02em' }}>
+                Ready to decode your privacy policy?
+              </h2>
+              <p style={{ fontSize: 18, color: 'rgba(255,255,255,0.75)', maxWidth: 520, margin: '0 auto 40px', lineHeight: 1.6 }}>
+                Paste any policy text or enter a URL to instantly get an AI-powered risk score, linguistic breakdown, and compliance insights.
+              </p>
+              <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
+                <Link to="/analyzer" style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 8,
+                  background: '#fff', color: 'var(--primary)', fontFamily: 'Geist,sans-serif',
+                  fontWeight: 600, fontSize: 15, padding: '14px 28px', borderRadius: 10,
+                  border: 'none', cursor: 'pointer', transition: 'all 0.2s',
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>analytics</span>
+                  Analyze a Policy
+                </Link>
+                <Link to="/directory" style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 8,
+                  background: 'rgba(255,255,255,0.12)', color: '#fff',
+                  fontFamily: 'Geist,sans-serif', fontWeight: 500, fontSize: 15,
+                  padding: '14px 28px', borderRadius: 10, border: '1px solid rgba(255,255,255,0.25)',
+                  cursor: 'pointer', transition: 'all 0.2s',
+                }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 18 }}>grid_view</span>
+                  Browse Directory
+                </Link>
+              </div>
+              <p style={{ marginTop: 24, fontSize: 13, color: 'rgba(255,255,255,0.5)' }}>
+                No account required · Open source dataset · Research-grade model
+              </p>
+            </div>
+          </motion.div>
         </section>
       </main>
     </>

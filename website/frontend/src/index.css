@@ -85,6 +85,10 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: var(--background);
@@ -93,6 +97,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root > footer {
+  margin-top: auto;
 }
 
 /* ---- Typography ---- */
@@ -366,3 +380,40 @@ a {
 ::-webkit-scrollbar-track { background: var(--surface); }
 ::-webkit-scrollbar-thumb { background: var(--outline-variant); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--outline); }
+
+/* ---- Text size utility ---- */
+.text-sm { font-size: 13px; line-height: 20px; }
+
+/* ---- Hover elevation ---- */
+.hover-lift {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0,102,255,0.08);
+}
+
+/* ---- Mobile responsive helpers ---- */
+@media (max-width: 768px) {
+  .text-display { font-size: 36px; line-height: 44px; }
+  .text-headline-lg { font-size: 26px; line-height: 34px; }
+  .container-app { padding: 0 20px; }
+
+  /* Hide desktop-only elements */
+  .desktop-only { display: none !important; }
+
+  /* Grid overrides */
+  .mobile-stack {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .text-display { font-size: 30px; line-height: 38px; }
+
+  .btn-primary, .btn-secondary {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+}
+

@@ -32,9 +32,24 @@ import numpy as np
 # ---------------------------------------------------------------------------
 try:
     import trafilatura
+    from trafilatura.settings import use_config
     HAS_TRAFILATURA = True
 except ImportError:
     HAS_TRAFILATURA = False
+
+# ---------------------------------------------------------------------------
+# requests + BeautifulSoup for fallback URL extraction
+# ---------------------------------------------------------------------------
+try:
+    import requests
+    from bs4 import BeautifulSoup
+    HAS_REQUESTS = True
+except ImportError:
+    HAS_REQUESTS = False
+
+import urllib.request
+import urllib.error
+from html.parser import HTMLParser
 
 # ---------------------------------------------------------------------------
 # Optional: textstat for readability scoring
@@ -431,6 +446,229 @@ def analyze_text():
     return jsonify(result), status
 
 
+# ---------------------------------------------------------------------------
+# JS-rendered domain detection
+# ---------------------------------------------------------------------------
+JS_HEAVY_DOMAINS = [
+    "facebook.com", "fb.com",
+    "instagram.com",
+    "twitter.com", "x.com",
+    "tiktok.com",
+    "linkedin.com",
+    "snapchat.com",
+    "reddit.com",
+    "pinterest.com",
+    "youtube.com",
+    "google.com",
+    "apple.com",
+]
+
+# Browser-like headers to defeat basic bot detection
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "DNT": "1",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Cache-Control": "max-age=0",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+}
+
+
+class _TextExtractParser(HTMLParser):
+    """Minimal HTML → plain text parser used as last-resort fallback."""
+    def __init__(self):
+        super().__init__()
+        self._skip = False
+        self._skip_tags = {"script", "style", "noscript", "head", "nav", "footer", "aside"}
+        self._parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self._skip_tags:
+            self._skip = True
+
+    def handle_endtag(self, tag):
+        if tag in self._skip_tags:
+            self._skip = False
+        if tag in {"p", "div", "li", "h1", "h2", "h3", "br", "tr"}:
+            self._parts.append(" ")
+
+    def handle_data(self, data):
+        if not self._skip:
+            stripped = data.strip()
+            if stripped:
+                self._parts.append(stripped)
+
+    def get_text(self):
+        return " ".join(self._parts)
+
+
+def _is_js_heavy(url):
+    """Return True if the URL belongs to a known JS-rendered domain."""
+    url_lower = url.lower()
+    return any(domain in url_lower for domain in JS_HEAVY_DOMAINS)
+
+
+def _clean_extracted_text(raw):
+    """Normalise whitespace and remove boilerplate-length short texts."""
+    if not raw:
+        return None
+    # Collapse runs of whitespace / newlines
+    text = re.sub(r"[ \t]+", " ", raw)
+    text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    return text if len(text.split()) >= 50 else None
+
+
+def fetch_url_text(url):
+    """
+    Multi-strategy URL text extraction.
+
+    Strategy 1 — trafilatura (best quality, handles many sites)
+    Strategy 2 — requests + BeautifulSoup (bypasses some bot blocks)
+    Strategy 3 — urllib fallback (no third-party deps)
+
+    Returns: (text: str | None, error: str | None, strategy: str)
+    """
+    strategies_log = []
+
+    # ------------------------------------------------------------------
+    # Strategy 1: trafilatura with full config
+    # ------------------------------------------------------------------
+    if HAS_TRAFILATURA:
+        try:
+            newconfig = use_config()
+            newconfig.set("DEFAULT", "EXTRACTION_TIMEOUT", "20")
+            downloaded = trafilatura.fetch_url(
+                url,
+                no_ssl=False,
+            )
+            if downloaded:
+                text = trafilatura.extract(
+                    downloaded,
+                    include_tables=True,
+                    include_comments=False,
+                    no_fallback=False,
+                    config=newconfig,
+                )
+                cleaned = _clean_extracted_text(text)
+                if cleaned:
+                    return cleaned, None, "trafilatura"
+                else:
+                    strategies_log.append("trafilatura: downloaded but extracted <50 words")
+            else:
+                strategies_log.append("trafilatura: fetch returned empty response")
+        except Exception as exc:
+            strategies_log.append(f"trafilatura: {exc}")
+
+    # ------------------------------------------------------------------
+    # Strategy 2: requests + BeautifulSoup with browser headers
+    # ------------------------------------------------------------------
+    if HAS_REQUESTS:
+        try:
+            session = requests.Session()
+            session.headers.update(_HEADERS)
+            # Follow redirects, short timeout
+            resp = session.get(url, timeout=20, allow_redirects=True)
+            resp.raise_for_status()
+            html = resp.text
+
+            soup = BeautifulSoup(html, "lxml")
+
+            # Remove noise tags
+            for tag in soup(["script", "style", "noscript", "nav",
+                             "header", "footer", "aside", "form",
+                             "button", "svg", "img"]):
+                tag.decompose()
+
+            # Prefer <main>, <article>, or <section> blocks
+            body = (
+                soup.find("main")
+                or soup.find("article")
+                or soup.find(id=re.compile(r"(content|policy|privacy|main)", re.I))
+                or soup.find(class_=re.compile(r"(content|policy|privacy|main)", re.I))
+                or soup.body
+            )
+
+            raw = body.get_text(separator=" ", strip=True) if body else soup.get_text(separator=" ", strip=True)
+
+            # If trafilatura is available, also try extracting from the raw HTML string
+            if HAS_TRAFILATURA and raw:
+                try:
+                    t2 = trafilatura.extract(
+                        html,
+                        include_tables=True,
+                        include_comments=False,
+                        no_fallback=False,
+                    )
+                    if t2 and len(t2.split()) > len(raw.split()):
+                        raw = t2
+                except Exception:
+                    pass
+
+            cleaned = _clean_extracted_text(raw)
+            if cleaned:
+                return cleaned, None, "requests+beautifulsoup"
+            else:
+                strategies_log.append(f"requests+bs4: status {resp.status_code}, extracted <50 words")
+        except requests.exceptions.SSLError:
+            strategies_log.append("requests+bs4: SSL error")
+        except requests.exceptions.Timeout:
+            strategies_log.append("requests+bs4: timeout")
+        except requests.exceptions.ConnectionError as exc:
+            strategies_log.append(f"requests+bs4: connection error — {exc}")
+        except Exception as exc:
+            strategies_log.append(f"requests+bs4: {exc}")
+
+    # ------------------------------------------------------------------
+    # Strategy 3: urllib (stdlib only)
+    # ------------------------------------------------------------------
+    try:
+        req = urllib.request.Request(url, headers=_HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+
+        parser = _TextExtractParser()
+        parser.feed(html)
+        raw = parser.get_text()
+        cleaned = _clean_extracted_text(raw)
+        if cleaned:
+            return cleaned, None, "urllib"
+        else:
+            strategies_log.append("urllib: extracted <50 words")
+    except Exception as exc:
+        strategies_log.append(f"urllib: {exc}")
+
+    # ------------------------------------------------------------------
+    # All strategies failed — build a helpful error
+    # ------------------------------------------------------------------
+    js_hint = ""
+    if _is_js_heavy(url):
+        js_hint = (
+            " This page is from a site that renders content with JavaScript "
+            "(e.g. Facebook, Google, LinkedIn). The privacy policy text is not "
+            "present in the raw HTML — it can only be read by a real browser."
+        )
+
+    return (
+        None,
+        (
+            f"Could not extract text from this URL after trying 3 strategies.{js_hint} "
+            "Please open the privacy policy page in your browser, select all text "
+            "(Ctrl+A → Ctrl+C), then paste it in the 'Paste Text' tab."
+        ),
+        "all_failed",
+    )
+
+
 @app.route("/api/analyze/url", methods=["POST"])
 def analyze_url():
     """
@@ -439,54 +677,37 @@ def analyze_url():
     Request JSON:
         { "url": "https://example.com/privacy" }
 
-    Uses trafilatura to download and extract text, then analyzes.
+    Attempts extraction via 3 strategies:
+      1. trafilatura
+      2. requests + BeautifulSoup
+      3. urllib
+    Returns a structured error with paste-text suggestion on failure.
     """
-    if not HAS_TRAFILATURA:
-        return jsonify({
-            "error": "URL analysis is not available. "
-                     "Install trafilatura: pip install trafilatura",
-            "success": False,
-        }), 503
-
     data = request.get_json(silent=True)
     if not data or "url" not in data:
-        return jsonify({
-            "error": "Missing 'url' field in request body.",
-            "success": False,
-        }), 400
+        return jsonify({"error": "Missing 'url' field in request body.", "success": False}), 400
 
     url = data["url"].strip()
     if not url:
+        return jsonify({"error": "Empty URL provided.", "success": False}), 400
+
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
+
+    text, error, strategy = fetch_url_text(url)
+
+    if error or not text:
         return jsonify({
-            "error": "Empty URL provided.",
             "success": False,
-        }), 400
-
-    # Download and extract
-    try:
-        downloaded = trafilatura.fetch_url(url)
-        if not downloaded:
-            return jsonify({
-                "error": f"Failed to download page from: {url}",
-                "success": False,
-            }), 422
-
-        text = trafilatura.extract(downloaded)
-        if not text:
-            return jsonify({
-                "error": "Could not extract text content from the page.",
-                "success": False,
-            }), 422
-
-    except Exception as e:
-        return jsonify({
-            "error": f"Error fetching URL: {str(e)}",
-            "success": False,
+            "error": error or "Unknown extraction error.",
+            "suggestion": "paste_text",
+            "js_rendered": _is_js_heavy(url),
         }), 422
 
     result = build_analysis_response(text, source="url")
     if result.get("success"):
         result["url"] = url
+        result["extraction_strategy"] = strategy
         result["extracted_text_preview"] = text[:500] + ("..." if len(text) > 500 else "")
 
     status = 200 if result.get("success") else 400

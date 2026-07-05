@@ -11,12 +11,16 @@ export default function Analyzer() {
   const [loadingStep, setLoadingStep] = useState(0)
   const [result, setResult] = useState(null)
   const [error, setError] = useState(null)
+  const [jsRendered, setJsRendered] = useState(false)
+  const [pasteHint, setPasteHint] = useState(false)
 
   const steps = ['Reading policy text...', 'Computing readability metrics...', 'Running ML classifier...', 'Generating insights...']
 
   const handleAnalyze = async () => {
     setError(null)
     setResult(null)
+    setJsRendered(false)
+    setPasteHint(false)
     setLoading(true)
     setLoadingStep(0)
 
@@ -36,7 +40,10 @@ export default function Analyzer() {
       }, 400)
     } catch (err) {
       clearInterval(stepInterval)
-      setError(err.response?.data?.error || 'Analysis failed. Make sure the Flask backend is running on port 5000.')
+      const errData = err.response?.data
+      setError(errData?.error || 'Analysis failed. Make sure the Flask backend is running on port 5000.')
+      setJsRendered(errData?.js_rendered || false)
+      setPasteHint(errData?.suggestion === 'paste_text')
       setLoading(false)
     }
   }
@@ -125,8 +132,55 @@ export default function Analyzer() {
             )}
 
             {error && (
-              <div style={{ marginTop: 16, padding: 16, background: 'var(--error-container)', borderRadius: 8, color: 'var(--on-error-container)', fontSize: 14 }}>
-                {error}
+              <div style={{ marginTop: 16 }}>
+                {/* Main error box */}
+                <div style={{ padding: 16, background: 'var(--error-container)', borderRadius: 8, color: 'var(--on-error-container)', fontSize: 14, marginBottom: jsRendered ? 12 : 0 }}>
+                  <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
+                    <span className="material-symbols-outlined" style={{ fontSize: 18, flexShrink: 0, marginTop: 1 }}>error</span>
+                    <span>{error}</span>
+                  </div>
+                </div>
+
+                {/* JS-rendered page guide */}
+                {jsRendered && (
+                  <div style={{
+                    padding: 20, borderRadius: 10,
+                    background: 'var(--primary-fixed)',
+                    border: '1px solid rgba(0,80,203,0.2)',
+                    marginTop: 12,
+                  }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+                      <span className="material-symbols-outlined" style={{ fontSize: 18, color: 'var(--primary)' }}>tips_and_updates</span>
+                      <span className="font-mono" style={{ fontSize: 12, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 700 }}>How to analyze this page</span>
+                    </div>
+                    <ol style={{ paddingLeft: 20, display: 'flex', flexDirection: 'column', gap: 6, fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.6 }}>
+                      <li>Open <a href={url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: 500 }}>this privacy policy</a> in your browser</li>
+                      <li>Press <kbd style={{ background: 'var(--surface)', border: '1px solid var(--border-subtle)', borderRadius: 4, padding: '1px 6px', fontFamily: 'monospace', fontSize: 12 }}>Ctrl+A</kbd> to select all text</li>
+                      <li>Press <kbd style={{ background: 'var(--surface)', border: '1px solid var(--border-subtle)', borderRadius: 4, padding: '1px 6px', fontFamily: 'monospace', fontSize: 12 }}>Ctrl+C</kbd> to copy</li>
+                      <li>Click the button below and paste with <kbd style={{ background: 'var(--surface)', border: '1px solid var(--border-subtle)', borderRadius: 4, padding: '1px 6px', fontFamily: 'monospace', fontSize: 12 }}>Ctrl+V</kbd></li>
+                    </ol>
+                    <button
+                      onClick={() => { setTab('paste'); setError(null); setJsRendered(false) }}
+                      className="btn-primary"
+                      style={{ marginTop: 16, width: '100%', justifyContent: 'center' }}
+                    >
+                      <span className="material-symbols-outlined" style={{ fontSize: 16 }}>content_paste</span>
+                      Switch to Paste Text
+                    </button>
+                  </div>
+                )}
+
+                {/* Generic paste hint (non-JS pages) */}
+                {pasteHint && !jsRendered && (
+                  <button
+                    onClick={() => { setTab('paste'); setError(null) }}
+                    className="btn-secondary"
+                    style={{ marginTop: 10, width: '100%', justifyContent: 'center' }}
+                  >
+                    <span className="material-symbols-outlined" style={{ fontSize: 16 }}>content_paste</span>
+                    Try Pasting the Text Instead
+                  </button>
+                )}
               </div>
             )}
 
@@ -216,6 +270,12 @@ export default function Analyzer() {
               <p className="font-mono" style={{ fontSize: 12, color: 'var(--text-secondary)', marginTop: 8 }}>
                 Model: {result.model_info.model_name} · F1: {result.model_info.cv_f1_weighted} · {result.model_info.training_samples} training samples
               </p>
+              {result.extraction_strategy && (
+                <div style={{ marginTop: 8, display: 'inline-flex', alignItems: 'center', gap: 6, padding: '3px 10px', borderRadius: 99, background: 'var(--surface-container-low)', border: '1px solid var(--border-subtle)' }}>
+                  <span className="material-symbols-outlined" style={{ fontSize: 13, color: 'var(--primary)' }}>travel_explore</span>
+                  <span className="font-mono" style={{ fontSize: 11, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Extracted via {result.extraction_strategy}</span>
+                </div>
+              )}
             </div>
           </div>
 
