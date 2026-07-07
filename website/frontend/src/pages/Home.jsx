@@ -141,7 +141,7 @@ export default function Home() {
         {/* Hero */}
         <section style={{ minHeight: '80vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 48, padding: '48px 0 80px' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: 48, width: '100%' }}>
-            <motion.div variants={fadeUp} initial="hidden" animate="visible" style={{ flex: 1, minWidth: 320, zIndex: 20 }}>
+            <motion.div variants={fadeUp} initial="visible" animate="visible" style={{ flex: 1, minWidth: 320, zIndex: 20 }}>
               <h1 className="text-display" style={{ color: 'var(--text-primary)', lineHeight: 1.15, marginBottom: 24 }}>
                 Detect Hidden Complexity in <br />
                 <span style={{ color: 'var(--primary)' }}>Privacy Policies</span> Using Machine Learning
@@ -173,7 +173,7 @@ export default function Home() {
             {/* Parallax Hero Scene */}
             <motion.div
               ref={sceneRef}
-              variants={fadeUp} initial="hidden" animate="visible"
+              variants={fadeUp} initial="visible" animate="visible"
               transition={{ delay: 0.2 }}
               className="bg-pattern"
               style={{ flex: 1, minWidth: 320, height: 600, position: 'relative', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
