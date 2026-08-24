@@ -29,6 +29,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: website/frontend
+        env:
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4

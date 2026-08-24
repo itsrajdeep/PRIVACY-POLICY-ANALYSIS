@@ -119,7 +119,12 @@ CLASS_ORDER = ["Easy", "Moderate", "Obfuscated"]
 # App Setup
 # ===================================================================
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "https://itsrajdeep.github.io",   # GitHub Pages
+    "http://localhost:5173",           # Local Vite dev server
+    "http://localhost:5000",           # Local Flask dev
+    "http://127.0.0.1:5173",
+])
 
 # ===================================================================
 # Load Model & Data at Startup
